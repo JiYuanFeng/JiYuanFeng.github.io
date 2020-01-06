@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am currently studying for my master degree in City University of HK, I got my bachelor degree from [Shenzhen University](https://www.szu.edu.cn/) under the supervision of [Prof. Di lin](http://vcc.szu.edu.cn/Di_Lin/).
 
-<h2 id="News">Research Interests</h2>
+<h2 id="News">News</h2>
 <p><font size="4">Our VCC team rank third in the COCO panoptic segmentation challenge. See more details in [COCO](http://cocodataset.org/#panoptic-leaderboard)</font></p>
 
 
