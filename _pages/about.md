@@ -10,7 +10,6 @@ redirect_from:
 I am currently studying for my master degree in City University of HK, I got my bachelor degree from [Shenzhen University](https://www.szu.edu.cn/) under the supervision of [Prof. Di lin](http://vcc.szu.edu.cn/Di_Lin/).
 
 <h2 id="News">News</h2>
-<p><font size="2">RIP.... Dr.Zhang, Brave Whistleblower, remember you forever.  2020.02.06</font></p>
 <p><font size="2">Our VCC team rank third in the COCO panoptic segmentation challenge.</font></p>
 
 
