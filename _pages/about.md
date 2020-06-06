@@ -19,7 +19,7 @@ redirect_from:
 
 <h2 id="Education-Experience">Education Experience</h2>
 
-<dt> City University of Hong Kong, China.</dt>
+<dd> City University of Hong Kong, China, September 2019 - May 2020(future), Msc of Electronic Information Engineering </dd>
 <dd>September 2019 - May 2020(future)</dd>
 <dd>Msc of Electronic Information Engineering</dd>
 <hr>
