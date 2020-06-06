@@ -11,7 +11,6 @@ redirect_from:
 
 <h2 id="News">News</h2>
 <p><font size="2">One paper accepted by MICCAI2020. </font></p>
-<p><font size="2">这是我热爱的，我可以做到的.</font></p>
 <p><font size="2">Our VCC team rank third in the COCO panoptic segmentation challenge.</font></p>
 
 
@@ -22,7 +21,7 @@ redirect_from:
 
 <dd> City University of Hong Kong, China, September 2019 - May 2020(future), Msc of Electronic Information Engineering </dd>
 <hr>
-<dt> Shenzhen University, China, October 2014 - June 2018, B.Eng of Information Engineering, GPA : 80/100</dt>
+<dd> Shenzhen University, China, October 2014 - June 2018, B.Eng of Information Engineering, GPA : 80/100</dd>
 
 
 <h2 id="publications">Publications</h2>
