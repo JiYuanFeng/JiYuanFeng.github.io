@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p><font size="2"> I am currently studying for my master degree in City University of HK, I got my bachelor degree from Shenzhen University under the supervision of Prof. Di li.</font></p>
+<p><font size="2"> I am currently studying for my master degree in City University of HK, I got my bachelor degree from Shenzhen University under the supervision of Prof. Di lin.</font></p>
 
 <h2 id="News">News</h2>
 <p><font size="2">这是我热爱的，我可以做到的.</font></p>
@@ -60,7 +60,7 @@ Huang</dd>
 <dd>Develop Computer-Aided-Diagnosis System</dd>
 
 <h2 id="Honors-Awards">Honors & Awards</h2>
-<ul><li>Gold medal of <a href="https://www.kaggle.com/c/rsna-pneumonia-detection-challenge">Kaggle RSNA Pneumonia Detection Challenge</a>, 2018</li>
+<ul><li>Gold medal of Kaggle RSNA Pneumonia Detection Challenge</a>, 2018</li>
 <li>Silver medal of <a href="https://www.kaggle.com/c/human-protein-atlas-image-classification">Kaggle Human Protein Atlas Image Classification Challenge</a>, 2018</li>
 <li>Runner-up of <a href="https://www.kaggle.com/c/human-protein-atlas-image-classification">MICCAI ISIC2018 challenge Lesion Boundary Segmentation Challenge</a>, 2018</li>
 <li>Top 10 team of <a href="http://cocodataset.org/">COCO 2018 Detection Task</a>, 2018</li>
