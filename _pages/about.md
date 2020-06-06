@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently studying for my master degree in City University of HK, I got my bachelor degree from [Shenzhen University](https://www.szu.edu.cn/) under the supervision of [Prof. Di lin](http://vcc.szu.edu.cn/Di_Lin/).
+<p><font size="2"> I am currently studying for my master degree in City University of HK, I got my bachelor degree from [Shenzhen University](https://www.szu.edu.cn/) under the supervision of [Prof. Di lin](http://vcc.szu.edu.cn/Di_Lin/).</font></p>
 
 <h2 id="News">News</h2>
 <p><font size="2">这是我热爱的，我可以做到的.</font></p>
