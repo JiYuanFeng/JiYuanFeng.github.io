@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p><font size="2"> I am currently studying for my master degree in City University of HK, I got my bachelor degree from [Shenzhen University](https://www.szu.edu.cn/) under the supervision of [Prof. Di lin](http://vcc.szu.edu.cn/Di_Lin/).</font></p>
+<p><font size="2"> I am currently studying for my master degree in City University of HK, I got my bachelor degree from Shenzhen University under the supervision of Prof. Di li.</font></p>
 
 <h2 id="News">News</h2>
 <p><font size="2">这是我热爱的，我可以做到的.</font></p>
@@ -23,7 +23,6 @@ redirect_from:
 <dd>September 2019 - May 2020(future)</dd>
 <dd>Msc of Electronic Information Engineering</dd>
 <hr>
-<dt><img align="left" width="80" height="80" hspace="10" src="../images/szu.png"><dt>
 <dt> Shenzhen University, China.</dt>
 <dd>October 2014 - June 2018</dd>
 <dd>B.Eng of Information Engineering</dd>
