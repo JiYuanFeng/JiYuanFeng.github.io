@@ -10,6 +10,7 @@ redirect_from:
 <p><font size="2"> I am currently studying for my master degree in City University of HK, I got my bachelor degree from Shenzhen University under the supervision of Prof. Di lin.</font></p>
 
 <h2 id="News">News</h2>
+<p><font size="2">One paper accepted by MICCAI2020. </font></p>
 <p><font size="2">这是我热爱的，我可以做到的.</font></p>
 <p><font size="2">Our VCC team rank third in the COCO panoptic segmentation challenge.</font></p>
 
@@ -20,13 +21,9 @@ redirect_from:
 <h2 id="Education-Experience">Education Experience</h2>
 
 <dd> City University of Hong Kong, China, September 2019 - May 2020(future), Msc of Electronic Information Engineering </dd>
-<dd>September 2019 - May 2020(future)</dd>
-<dd>Msc of Electronic Information Engineering</dd>
 <hr>
-<dt> Shenzhen University, China.</dt>
-<dd>October 2014 - June 2018</dd>
-<dd>B.Eng of Information Engineering</dd>
-<dd>GPA : 80/100</dd>
+<dt> Shenzhen University, China, October 2014 - June 2018, B.Eng of Information Engineering, GPA : 80/100</dt>
+
 
 <h2 id="publications">Publications</h2>
 <dl><dt><img align="left" width="200" height="160" hspace="10" src="/images/PRSNet.png"></dt>
