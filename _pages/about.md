@@ -15,7 +15,7 @@ redirect_from:
 
 
 <h2 id="Research-Interests">Research Interests</h2>
-<p><font size="4">Computer Vision and Medical Image Analysis.</font></p>
+<p><font size="2">Computer Vision and Medical Image Analysis.</font></p>
 
 <h2 id="Education-Experience">Education Experience</h2>
 
