@@ -19,7 +19,6 @@ redirect_from:
 
 <h2 id="Education-Experience">Education Experience</h2>
 
-<dt><img align="left" width="80" height="80" hspace="10" src="../images/cityu.jpg"><dt>
 <dt> City University of Hong Kong, China.</dt>
 <dd>September 2019 - May 2020(future)</dd>
 <dd>Msc of Electronic Information Engineering</dd>
