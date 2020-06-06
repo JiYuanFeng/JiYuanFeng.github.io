@@ -61,7 +61,7 @@ Huang</dd>
 
 <h2 id="Honors-Awards">Honors & Awards</h2>
 <ul><li>Gold medal of Kaggle RSNA Pneumonia Detection Challenge</a>, 2018</li>
-<li>Silver medal of <a href="https://www.kaggle.com/c/human-protein-atlas-image-classification">Kaggle Human Protein Atlas Image Classification Challenge</a>, 2018</li>
-<li>Runner-up of <a href="https://www.kaggle.com/c/human-protein-atlas-image-classification">MICCAI ISIC2018 challenge Lesion Boundary Segmentation Challenge</a>, 2018</li>
-<li>Top 10 team of <a href="http://cocodataset.org/">COCO 2018 Detection Task</a>, 2018</li>
-<li>Top 3 team of <a href="http://cocodataset.org/">COCO 2019 Panoptic Segmentation Task</a>, 2019</li></ul>
+<li>Silver medal of Kaggle Human Protein Atlas Image Classification Challenge</a>, 2018</li>
+<li>Runner-up of MICCAI ISIC2018 challenge Lesion Boundary Segmentation Challenge</a>, 2018</li>
+<li>Top 10 team of COCO 2018 Detection Task</a>, 2018</li>
+<li>Top 3 team of COCO 2019 Panoptic Segmentation Task</a>, 2019</li></ul>
