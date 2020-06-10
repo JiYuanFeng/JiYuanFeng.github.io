@@ -50,7 +50,7 @@ Huang</dd>
 
 
 <h2 id="Work-Experience">Work Experience</h2>
-<dd> Imsight Medical Technology,Co.Ltd. May 2018 - May 2019, Deeplearning Engineer</dt>
+<dd> Imsight Medical Technology,Co.Ltd. May 2018 - May 2019, Deeplearning Engineer</dd>
 
 
 <h2 id="Honors-Awards">Honors & Awards</h2>
