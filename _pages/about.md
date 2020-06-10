@@ -50,10 +50,8 @@ Huang</dd>
 
 
 <h2 id="Work-Experience">Work Experience</h2>
-<dt> Imsight Medical Technology,Co. Ltd.</dt>
-<dd>May 2018 - May 2019</dd>
-<dd>Deeplearning Engineer</dd>
-<dd>Develop Computer-Aided-Diagnosis System</dd>
+<dd> Imsight Medical Technology,Co.Ltd. May 2018 - May 2019, Deeplearning Engineer</dt>
+
 
 <h2 id="Honors-Awards">Honors & Awards</h2>
 <li><font size="2">Gold medal of Kaggle RSNA Pneumonia Detection Challenge, 2018</font></li>
