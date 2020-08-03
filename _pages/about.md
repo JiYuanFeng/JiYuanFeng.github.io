@@ -19,9 +19,9 @@ redirect_from:
 
 <h2 id="Education-Experience">Education Experience</h2>
 
-<dd> City University of Hong Kong, China, September 2019 - May 2020(future), Msc of Electronic Information Engineering </dd>
+<dd> City University of Hong Kong, China, Msc of Electronic Information Engineering, September 2019 - May 2020</dd>
 <hr>
-<dd> Shenzhen University, China, October 2014 - June 2018, B.Eng of Information Engineering, GPA : 80/100</dd>
+<dd> Shenzhen University, China, B.Eng of Information Engineering, October 2014 - June 2018</dd>
 
 
 <h2 id="publications">Publications</h2>
@@ -50,7 +50,7 @@ Huang</dd>
 
 
 <h2 id="Work-Experience">Work Experience</h2>
-<dd> Imsight Medical Technology,Co.Ltd. May 2018 - May 2019, Deeplearning Engineer</dd>
+<dd> Imsight Medical Technology,Co.Ltd, Deeplearning Engineer, May 2018 - May 2019</dd>
 
 
 <h2 id="Honors-Awards">Honors & Awards</h2>
