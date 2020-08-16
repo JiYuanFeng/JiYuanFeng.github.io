@@ -11,7 +11,7 @@ redirect_from:
 
 <h2 id="News">News</h2>
 <p><font size="2">One paper accepted by MICCAI2020. </font></p>
-<p><font size="2">Our VCC team rank third in the COCO panoptic segmentation challenge.</font></p>
+<p><font size="2">Our VCC team ranks third in the COCO panoptic segmentation challenge.</font></p>
 
 
 <h2 id="Research-Interests">Research Interests</h2>
