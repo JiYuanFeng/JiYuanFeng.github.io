@@ -25,7 +25,7 @@ redirect_from:
 
 
 <h2 id="publications">Publications</h2>
-<dl><dt><img align="left" width="180" height="154" hspace="10" src="/images/UXNet.png"></dt>
+<dl><dt><img align="left" width="200" height="154" hspace="10" src="/images/UXNet.png"></dt>
     <dt>UXNet: Searching Multi-level Feature Aggregation for 3D Medical Image Segmentation, MICCAI2020.</dt>
     <dd><strong>Yuanfeng Ji</strong>, Ruimao Zhang, Zhen Li, Jiamin Ren, Shaoting Zhang, and Ping Luo</dd>
     <dd><a href="wait">[Paper]</a></dd></dl>
