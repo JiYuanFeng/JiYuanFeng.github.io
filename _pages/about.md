@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p><font size="2">I am currently a first-year Mphil student in the Department of Computer Science, Hongkong University under the supervision of  Prof. Luo ping. Before that, I got my master's degree at the City University of HK, and I attained my bachelor's degree from Shenzhen University under the supervision of Prof. Di lin.</font></p>
+<p><font size="2">I am currently a first-year Mphil student in the Department of Computer Science, Hongkong University under the supervision of  Prof. Luo Ping. Before that, I got my master's degree at the City University of HK, and I attained my bachelor's degree from Shenzhen University under the supervision of Prof. Di lin.</font></p>
 
 <h2 id="News">News</h2>
 <p><font size="2">One paper accepted by NIPS2020. </font></p>
