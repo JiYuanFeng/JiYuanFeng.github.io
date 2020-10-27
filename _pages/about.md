@@ -26,16 +26,16 @@ redirect_from:
 
 
 <h2 id="publications">Publications</h2>
-<dl><dt><img align="left" width="200" height="154" hspace="10" src="/images/RANet.pdf"></dt>
-    <dt>UXNet: Searching Multi-level Feature Aggregation for 3D Medical Image Segmentation, MICCAI2020.</dt>
-    <dd><strong>Yuanfeng Ji*</strong>, Ruimao Zhang, Zhen Li, Jiamin Ren, Shaoting Zhang, Ping Luo</dd>
-    <dd><a href="https://arxiv.org/pdf/2009.07501.pdf">[Paper]</a>
+<dl><dt><img align="left" width="200" height="154" hspace="10" src="/images/RANet.png"></dt>
+    <dt>RANet: Region Attention Network for Semantic Segmentation, NIPS2020.</dt>
+    <dd>Dingguo Shen*, <strong>Yuanfeng Ji*</strong>, Ping Li, Yi Wang, Di Lin (*Equal Contribution)</dd>
+    <dd><a href="">[Paper]</a>
       <a href="">[Code(coming soon)]</a></dd></dl>
 <hr>
 <dl><dt><img align="left" width="200" height="154" hspace="10" src="/images/UXNet.png"></dt>
     <dt>UXNet: Searching Multi-level Feature Aggregation for 3D Medical Image Segmentation, MICCAI2020.</dt>
     <dd><strong>Yuanfeng Ji</strong>, Ruimao Zhang, Zhen Li, Jiamin Ren, Shaoting Zhang, Ping Luo</dd>
-    <dd><a href="https://arxiv.org/pdf/2009.07501.pdf">[Paper]</a>
+    <dd><a href="https://arxiv.org/abs/2009.07501">[Paper]</a>
       <a href="">[Code(coming soon)]</a></dd></dl>
 <hr>
 <dl><dt><img align="left" width="200" height="160" hspace="10" src="/images/PRSNet.png"></dt>
