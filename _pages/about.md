@@ -28,7 +28,7 @@ redirect_from:
 <h2 id="publications">Publications</h2>
 <dl><dt><img align="left" width="200" height="154" hspace="10" src="/images/RANet.png"></dt>
     <dt>RANet: Region Attention Network for Semantic Segmentation, NIPS2020.</dt>
-    <dd>Dingguo Shen*, <strong>Yuanfeng Ji*</strong>, Ping Li, Yi Wang, Di Lin (*Equal Contribution)</dd>
+    <dd>Dingguo Shen*, <strong>Yuanfeng Ji*</strong>, Ping Li, Yi Wang, Di Lin (*equal contribution)</dd>
     <dd><a href="">[Paper]</a>
       <a href="">[Code(coming soon)]</a></dd></dl>
 <hr>
