@@ -11,8 +11,8 @@ redirect_from:
 
 <h2 id="News">News</h2>
 <font size="2">One paper accepted by MICCAI2021. </font>
-<p><font size="2">One paper accepted by NIPS2020. </font></p>
-<p><font size="2">One paper accepted by MICCAI2020. </font></p>
+<font size="2">One paper accepted by NIPS2020. </font>
+<font size="2">One paper accepted by MICCAI2020. </font>
 
 
 <h2 id="Research-Interests">Research Interests</h2>
