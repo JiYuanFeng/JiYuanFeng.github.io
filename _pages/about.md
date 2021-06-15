@@ -10,6 +10,7 @@ redirect_from:
 <p><font size="2">I am currently a first-year Mphil student in the Department of Computer Science, Hongkong University under the supervision of  Prof. Luo Ping. Before that, I got my master's degree at the City University of HK, and I attained my bachelor's degree from Shenzhen University under the supervision of Prof. Di lin.</font></p>
 
 <h2 id="News">News</h2>
+<p><font size="2">[06/2021] Another paper accepted by MICCAI2021 after rebuttal.</font></p>
 <p><font size="2">[05/2021] One paper accepted by MICCAI2021.</font></p>
 <p><font size="2">One paper accepted by NIPS2020.</font></p>
 <p><font size="2">One paper accepted by MICCAI2020.</font></p>
