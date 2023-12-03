@@ -1,5 +1,5 @@
 /node_modules/*
-/doc/*
+/docs/*
 /LICENSE
 /netlify.toml
 /package.json
