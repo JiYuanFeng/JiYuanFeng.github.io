@@ -19,269 +19,426 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
+
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Yuanfeng Ji",
+  initials: "YJ",
+  location: "California, USA, PT",
+  locationLink: "https://www.google.com/maps/place/California",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Researcher specializing in artificial intelligence applications in medicine, focused on advancing reliable and impactful healthcare technologies.",
   summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a postdoctoral researcher at Stanford University, I am dedicated to pioneering AI solutions in medical imaging and digital pathology. My work is driven by a commitment to developing robust and trustworthy systems that can contribute to advancements in healthcare diagnostics and treatment planning.",
+  avatarUrl: "src/data/image.png",
+  personalWebsiteUrl: "https://jiyuanfeng.github.io/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "yfj@stanford.edu",
+    tel: "6504441771",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/JiYuanFeng",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/yuanfeng-ji/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/YuanfengJi",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Shenzhen University",
+      degree: "Bachelor's Degree in Electronic Information Engineering",
+      start: "2014",
+      end: "2018",
     },
+    {
+      school: "City University of Hong Kong",
+      degree: "Master's Degree in Electronic Information Engineering",
+      start: "2019",
+      end: "2020",
+    },
+    {
+      school: "The University of Hong Kong",
+      degree: "MPhil in Computer Science",
+      start: "2020",
+      end: "2022",
+    },
+    {
+      school: "The University of Hong Kong",
+      degree: "Ph.D. Candidate in Computer Science",
+      start: "2022",
+      end: "2024",
+    },
+  ],
+  publications: [
+    {
+      "title": "CompGS: Unleashing 2D Compositionality for Compositional Text-to-3D via Dynamically Optimizing 3D Gaussians",
+      "badges": ["Tech Report"],
+      "authors": "Chongjian Ge, Chenfeng Xu, Yuanfeng Ji, Chensheng Peng, Masayoshi Tomizuka, Ping Luo, Mingyu Ding, Varun Jampani, Wei Zhan",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2410.20723"
+        },
+        {
+          "label": "project",
+          "url": "https://chongjiange.github.io/compgs.html"
+        }
+      ]
+    },
+    {
+      "title": "SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding",
+      "badges": ["Tech Report"],
+      "year": "2024",
+      "authors": "Ying Chen*, Guoan Wang*, Yuanfeng Ji*#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He#",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2410.11761"
+        }
+      ]
+    },
+    {
+      "title": "SyNDock: N Rigid Protein Docking via Learnable Group Synchronization",
+      "badges": ["Tech Report"],
+      "year": "2023",
+      "authors": "Yuanfeng Ji, Yatao Bian, Guoji Fu, Peilin Zhao, Ping Luo",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2305.15156"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/JiYuanFeng/SyNDock"
+        },
+        {
+          "label": "project",
+          "url": "https://jiyuanfeng.github.io/SyNDock"
+        }
+      ]
+    },    
+    {
+      "title": "Large Language Models as Automated Aligners for Benchmarking Vision-Language Models",
+      "badges": ["ICLR24"],
+      "year": "2024",
+      "authors": "Yuanfeng Ji*, Chongjian Ge*, Weikai Kong, Enze Xie, Zhengying Liu, Zhengguo Li, Ping Luo",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2311.14580"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/JiYuanFeng/AutoBench"
+        },
+        {
+          "label": "project",
+          "url": "https://jiyuanfeng.github.io/AutoBench"
+        }
+      ]
+    },
+    {
+      "title": "DDP: Diffusion Model for Dense Visual Prediction",
+      "badges": ["ICCV23"],
+      "year": "2023",
+      "authors": "Yuanfeng Ji*, Zhe Chen*, Enze Xie, Lanqing Hong, Xihui Liu, Zhaoqiang Liu, Tong Lu, Zhenguo Li, Ping Luo",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2303.17559"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/JiYuanFeng/DDP"
+        }
+      ]
+    },
+    {
+      "title": "DrugOOD: Out-of-Distribution (OOD) Dataset Curator and Benchmark for AI-aided Drug Discovery",
+      "badges": ["AAAI23", "Oral"],
+      "year": "2023",
+      "authors": "Yuanfeng Ji*, Lu Zhang*, Jiaxiang Wu, Bingzhe Wu, Lanqing Li, Long-Kai Huang, Tingyang Xu, Yu Rong, Jie Ren, Ding Xue, Houtim Lai, Wei Liu, Junzhou Huang, Shuigeng Zhou, Ping Luo, Peilin Zhao, Yatao Bian",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2201.09637"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/JiYuanFeng/DrugOOD"
+        },
+        {
+          "label": "project",
+          "url": "https://jiyuanfeng.github.io/DrugOOD"
+        }
+      ]
+    },
+    {
+      "title": "AMOS: A Large-Scale Abdominal Multi-Organ Benchmark for Versatile Medical Image Segmentation",
+      "badges": ["NeurIPS22", "Oral"],
+      "year": "2022",
+      "authors": "Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhang, Wanling Ma, Xiang Wan, Ping Luo",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2206.08023"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/JiYuanFeng/AMOS"
+        },
+        {
+          "label": "project",
+          "url": "https://jiyuanfeng.github.io/AMOS"
+        }
+      ]
+    },
+    {
+      "title": "Multi-Compound Transformer for Accurate Biomedical Image Segmentation",
+      "badges": ["MICCAI21", "EA"],
+      "year": "2021",
+      "authors": "Yuanfeng Ji, Ruimao Zhang, Huijie Wang, Zhen Li, Lingyun Wu, Shaoting Zhang, Ping Luo",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2106.14385"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/JiYuanFeng/MCT"
+        }
+      ]
+    },
+    {
+      "title": "UXNet: Searching Multi-level Feature Aggregation for 3D Medical Image Segmentation",
+      "badges": ["MICCAI20", "EA"],
+      "year": "2020",
+      "authors": "Yuanfeng Ji, Ruimao Zhang, Zhen Li, Jiamin Ren, Shaoting Zhang, Ping Luo",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2009.07501"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/JiYuanFeng/UXNet"
+        }
+      ]
+    },
+    {
+      "title": "RANet: Region Attention Network for Semantic Segmentation",
+      "badges": ["Neuips2020"],
+      "year": "2020",
+      "authors": "Dingguo Shen*, Yuanfeng Ji*, Ping Li, Yi Wang, Di Lin",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2010.11725"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/JiYuanFeng/RANet"
+        }
+      ]
+    },
+    {
+      "title": "PRSNet: Part Relation and Selection Network for Bone Age Assessment",
+      "badge": "MICCAI19",
+      "badges": ["MICCAI2019", "EA"],
+      "year": "2019",
+      "authors": "Yuanfeng Ji, Hao Chen, Dan Lin, Xiaohua Wu, Di Lin",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/1909.05651"
+        }
+      ]
+    },
+    {
+      "title": "Multi-Scale Context Intertwining for Semantic Segmentation",
+      "badge": "ECCV18",
+      "badges": ["ECCV18"],
+      "year": "2018",
+      "authors": "Di Lin, Yuanfeng Ji, Dani Lischinski, Daniel Cohen-Or, Hui Huang",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/1807.00583"
+        }
+      ]
+    }
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
+      company: "Stanford University",
+      link: "https://profiles.stanford.edu/yuanfeng-ji",
+      badges: [],
+      title: "Postdoctoral Researcher",
+      logo: NSNLogo,
       start: "2024",
       end: null,
       description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
+        "Engaged in AI applications for precision medicine under the guidance of Prof. Ruijiang Li.",
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      company: "Stanford University",
+      link: "https://profiles.stanford.edu/yuanfeng-ji",
+      badges: [],
+      title: "Visiting Student Researcher",
+      logo: NSNLogo,
+      start: "2023",
       end: "2024",
       description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
+        "Engaged in AI applications for precision medicine under the guidance of Prof. Ruijiang Li.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Huawei Noah's Ark Lab",
+      link: "https://www.noahlab.com.hk/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      title: "Research Intern",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+      start: "2022",
+      end: "2023",
+      description:
+        "Developed AI models for predicting cancer treatment outcomes, focusing on precision medicine.",
     },
+    {
+      company: "Tencent AI Lab",
+      link: "https://ai.tencent.com/ailab/en/index",
+      badges: [],
+      title: "Research Intern",
+      logo: NSNLogo,
+      start: "2021",
+      end: "2022",
+      description:
+        "Led the development of a DrugAI dataset and benchmark for out-of-distribution generalization; developed multi-protein docking algorithms incorporating graph-based deep learning techniques.",
+    },
+    {
+      company: "SenseTime Research",
+      link: "https://www.sensetime.com/",
+      badges: [],
+      title: "Research Intern",
+      logo: NSNLogo,
+      start: "2019",
+      end: "2020",
+      description:
+        "Developed automated machine learning algorithms for medical image analysis; led the creation of a multi-site abdominal organ segmentation dataset and benchmark.",
+    },
+    {
+      company: "Imsight Medical Technology",
+      link: "https://www.imsightmed.com/",
+      badges: [],
+      title: "Deep Learning Researcher",
+      logo: NSNLogo,
+      start: "2018",
+      end: "2019",
+      description:
+        "Led the development of CAD products implemented in several institutions in Hong Kong, including a chest X-ray diagnostic system detecting 17 lung diseases and a sequencing algorithm optimizing diagnostic queues at medical facilities.",
+    },
+    {
+      "company": "Visual Computing Research Center, Shenzhen University",
+      "link": "https://vcc.tech/",
+      "badges": [],
+      "title": "Research Assistant",
+      "logo": "VCCLogo",  // Replace with the actual VCC logo
+      "start": "2018",
+      "end": "2019",
+      "description": "Under the supervision of Prof. Hui Huang and Prof. Di Lin, contributed to research on semantic segmentation.",
+    }
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Computer Vision",
+    "Medical Image Analysis",
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Machine Learning",
+    "Python",
+    "TensorFlow",
+    "PyTorch",
   ],
   projects: [
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "DDP: Diffusion Model for Dense Visual Prediction",
+      techStack: ["Research Project", "Python", "PyTorch"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Developed a framework for dense visual predictions based on the conditional diffusion pipeline, following a 'noise-to-map' generative paradigm.",
+      logo: NSNLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "arXiv",
+        href: "https://arxiv.org/abs/2303.17559",
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "AMOS: A Large-Scale Abdominal Multi-Organ Benchmark",
+      techStack: ["Research Project", "Python", "TensorFlow"],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "Created a comprehensive benchmark for abdominal multi-organ segmentation, facilitating advancements in medical image analysis.",
+      logo: NSNLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "NeurIPS",
+        href: "https://neurips.cc/virtual/2022/poster/55771",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "DrugOOD: Out-of-Distribution Dataset Curator and Benchmark",
+      techStack: ["Research Project", "Python", "PyTorch"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "Developed a dataset curator and benchmark for AI-aided drug discovery, focusing on affinity prediction problems with noisy annotations.",
+      logo: NSNLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "AAAI",
+        href: "https://arxiv.org/abs/2201.09637",
       },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
+  challenges: [
+    {
+      title: "Kaggle RSNA Pneumonia Detection Challenge",
+      year: "2019",
+      rank: "Ranked 5th (Gold Medal)",
+      link: "https://www.kaggle.com/c/rsna-pneumonia-detection-challenge",
+    },
+    {
+      title: "COCO 2019 Panoptic Segmentation Task",
+      year: "2019",
+      rank: "Ranked 3rd",
+      link: "https://cocodataset.org/#panoptic-2019",
+    },
+    {
+      title: "MICCAI 2018 ISIC Skin Lesion Segmentation Challenge",
+      year: "2018",
+      rank: "Ranked 3rd",
+      link: "https://challenge2018.isic-archive.com/",
+    },
+    {
+      title: "Kaggle Human Protein Atlas Image Classification Challenge",
+      year: "2019",
+      rank: "Ranked 87th (Silver Medal)",
+      link: "https://www.kaggle.com/c/human-protein-atlas-image-classification",
+    }
+  ],
+  news: [
+    {
+      title: "Hiring Internship Positions for Medical AGI Research",
+      date: "2024-11-11",
+      description: "Our team is looking for talented interns to join us in exploring Medical AGI. For detailed information, please see the link. If you're interested and passionate, feel free to reach out directly!",
+      link: "https://www.xiaohongshu.com/explore/672a20b7000000001b02e05d?app_platform=android&ignoreEngage=true&app_version=8.58.0&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBbHMhqciUrFq55JAzY43nmv_0rOqQQMnJubUEmchn_mw=&author_share=1&xhsshare=WeixinSession&shareRedId=N0pGNUhLRUs2NzUyOTgwNjY0OTc5NUxL&apptime=1730912776&share_id=b0d1e8b70625499aa9c7e1898cd5f932",
+    },
+    {
+      title: "Joined LiLab as a Postdoctoral Researcher",
+      date: "2024-11-1",
+      description: "I completed my Ph.D. in August 2024 and have joined Li Lab at Stanford University as a postdoctoral researcher.",
+      link: "https://profiles.stanford.edu/yuanfeng-ji",
+    }
+  ]
+
 } as const;

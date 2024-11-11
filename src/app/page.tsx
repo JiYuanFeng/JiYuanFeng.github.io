@@ -98,69 +98,81 @@ export default function Page() {
             {RESUME_DATA.summary}
           </p>
         </Section>
+        <div>
+          <Section className="print-force-new-page scroll-mb-16">
+            <h2 className="text-xl font-bold">News</h2>
+            <div className="relative max-w-3xl mx-auto"> {/* 限制宽度并居中 */}
+              <div className="border-l-2 border-gray-300 ml-4">
+                {RESUME_DATA.news.map((newsItem, index) => (
+                  <div key={index} className="relative mb-8 ml-8">
+                    <span className="text-xs text-gray-500">{newsItem.date}</span>
+                    <h3 className="text-base font-semibold mt-1">
+                      <a
+                        href={newsItem.link}
+                        className="hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {newsItem.title}
+                      </a>
+                    </h3>
+                    <p className="text-xs mt-1 text-gray-700">{newsItem.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </Section>
+        </div>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-          {RESUME_DATA.work.map((work) => {
-            return (
-              <Card key={work.company}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link}>
-                        {work.company}
-                      </a>
-
-                      <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
-                            key={badge}
-                          >
-                            {badge}
-                          </Badge>
-                        ))}
+          <div className="relative">
+            <div className="border-l-2 border-gray-300 ml-4">
+              {RESUME_DATA.work.map((work, index) => (
+                <div key={index} className="relative mb-8 ml-8">
+                  <span className="text-xs text-gray-500">
+                    {work.start} - {work.end ?? "Present"}
+                  </span>
+                  <h3 className="text-base font-semibold mt-1">
+                    <a className="hover:underline" href={work.link}>
+                      {work.company}
+                    </a>
+                  </h3>
+                  <p className="text-xs mt-1 text-gray-700">{work.title}</p>
+                  <p className="text-xs mt-1 text-gray-700">{work.description}</p>
+                  <div className="flex gap-x-1 mt-1">
+                    {work.badges.map((badge) => (
+                      <span
+                        key={badge}
+                        className="inline-flex items-center justify-center rounded bg-gray-200 text-xs px-2 py-0.5"
+                      >
+                        {badge}
                       </span>
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end ?? "Present"}
-                    </div>
+                    ))}
                   </div>
-
-                  <h4 className="font-mono text-sm leading-none print:text-[12px]">
-                    {work.title}
-                  </h4>
-                </CardHeader>
-                <CardContent className="mt-2 text-xs print:text-[10px]">
-                  {work.description}
-                </CardContent>
-              </Card>
-            );
-          })}
+                </div>
+              ))}
+            </div>
+          </div>
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
-          {RESUME_DATA.education.map((education) => {
-            return (
-              <Card key={education.school}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
-                      {education.school}
-                    </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {education.start} - {education.end}
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="mt-2 print:text-[12px]">
-                  {education.degree}
-                </CardContent>
-              </Card>
-            );
-          })}
+          <div className="relative">
+            <div className="border-l-2 border-gray-300 ml-4">
+              {RESUME_DATA.education.map((education, index) => (
+                <div key={index} className="relative mb-8 ml-8">
+                  <span className="text-xs text-gray-500">
+                    {education.start} - {education.end}
+                  </span>
+                  <h3 className="text-base font-semibold mt-1">
+                    {education.school}
+                  </h3>
+                  <p className="text-xs mt-1 text-gray-700">{education.degree}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </Section>
-        <Section>
+        {/* <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
@@ -171,8 +183,7 @@ export default function Page() {
               );
             })}
           </div>
-        </Section>
-
+        </Section> */}
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
@@ -189,6 +200,79 @@ export default function Page() {
             })}
           </div>
         </Section>
+        <Section className="print-force-new-page scroll-mb-16">
+        <h2 className="text-xl font-bold">Publications</h2>
+        <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-1 print:gap-2 md:grid-cols-1 lg:grid-cols-1">
+          {RESUME_DATA.publications.map((publication) => (
+            <Card key={publication.title} className="border border-gray-100 rounded-lg p-4">
+              <CardHeader>
+                <h3 className="font-semibold leading-normal inline-flex items-center gap-x-1">
+                  <a
+                    href={publication.links.find(link => link.label === 'paper')?.url}
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {publication.title}
+                  </a>
+                  <span className="inline-flex gap-x-1">
+                    {publication.badges.map((badge) => (
+                      <Badge
+                        key={badge}
+                        variant="secondary"
+                        className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
+                      >
+                        {badge}
+                      </Badge>
+                    ))}
+                  </span>
+                </h3>
+              </CardHeader>
+              <CardContent className="mt-2 text-xs print:text-[10px]">
+                <p className="text-pretty mb-2">{publication.authors}</p>
+                <div className="text-pretty">
+                  {publication.links.map((link) => (
+                    <a
+                      key={link.label}
+                      href={link.url}
+                      className="text-blue-600 hover:underline text-xs mr-2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      [{link.label.toLowerCase()}]
+                    </a>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </Section>
+
+      <Section className="print-force-new-page scroll-mb-16">
+        <h2 className="text-xl font-bold">Awards & Achievements</h2>
+        <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-2 print:gap-2 md:grid-cols-2 lg:grid-cols-2">
+          {RESUME_DATA.challenges.map((challenge, index) => (
+            <Card key={index} className="border border-gray-100 rounded-lg p-3"> {/* 将 p-4 改为 p-3 */}
+              <CardHeader className="relative">
+                <h3 className="text-base font-semibold leading-normal"> {/* 确保与 Publications 一致 */}
+                  <a
+                    href={challenge.link}
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {challenge.title}
+                  </a>
+                </h3>
+              </CardHeader>
+              <CardContent className="mt-1 text-xs print:text-[10px]"> {/* mt-1 缩小间距 */}
+                <p className="text-pretty">{challenge.rank}</p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </Section>
       </section>
 
       <CommandMenu
