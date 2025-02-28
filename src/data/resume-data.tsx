@@ -28,8 +28,8 @@ export const RESUME_DATA = {
   about:
     "Researcher specializing in artificial intelligence applications in medicine, focused on advancing reliable and impactful healthcare technologies.",
   summary:
-    "As a postdoctoral researcher at Stanford University, I am dedicated to pioneering AI solutions in medical imaging and digital pathology. My work is driven by a commitment to developing robust and trustworthy systems that can contribute to advancements in healthcare diagnostics and treatment planning.",
-  avatarUrl: "src/data/image.png",
+    "I am dedicated to pioneering AI solutions in medical imaging and digital pathology. My work is driven by a commitment to developing robust and trustworthy systems that can contribute to advancements in healthcare diagnostics and treatment planning.",
+  avatarUrl: "/image.png",
   personalWebsiteUrl: "https://jiyuanfeng.github.io/",
   contact: {
     email: "yfj@stanford.edu",
@@ -73,7 +73,7 @@ export const RESUME_DATA = {
     },
     {
       school: "The University of Hong Kong",
-      degree: "Ph.D. Candidate in Computer Science",
+      degree: "Ph.D. in Computer Science",
       start: "2022",
       end: "2024",
     },
