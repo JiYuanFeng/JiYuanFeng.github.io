@@ -1,0 +1,15 @@
+# build out folder
+yarn build
+# mv out folder out of cv folder
+mv out cv/out
+# git branch checkout to gh-pages
+git checkout gh-pages
+# mv out/* to cv folder
+mv out/* cv/
+# git add all files and commit
+git add .
+git commit -m "update cv"
+# git push
+git push
+# git checkout to main
+git checkout main
