@@ -184,7 +184,7 @@ export default function Page() {
             })}
           </div>
         </Section> */}
-        <Section className="print-force-new-page scroll-mb-16">
+        {/* <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
@@ -199,7 +199,7 @@ export default function Page() {
               );
             })}
           </div>
-        </Section>
+        </Section> */}
         <Section className="print-force-new-page scroll-mb-16">
         <h2 className="text-xl font-bold">Publications</h2>
         <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-1 print:gap-2 md:grid-cols-1 lg:grid-cols-1">
@@ -273,7 +273,41 @@ export default function Page() {
           ))}
         </div>
       </Section>
+      <Section className="print-force-new-page scroll-mb-16">
+        <h2 className="text-xl font-bold">Activities</h2>
+        <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-2 print:gap-2 md:grid-cols-2 lg:grid-cols-2">
+          {RESUME_DATA.activities.map((activity, index) => (
+            <Card key={index} className="border border-gray-100 rounded-lg p-3"> {/* 将 p-4 改为 p-3 */}
+              <CardHeader className="relative">
+                <h3 className="text-base font-semibold leading-normal"> {/* 确保与 Publications 一致 */}
+                  <a
+                    href={activity.link}
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {activity.title}
+                  </a>
+                </h3>
+              </CardHeader>
+              <CardContent className="mt-1 text-xs print:text-[10px]"> {/* mt-1 缩小间距 */}
+                <p className="text-pretty">
+                  <a
+                    href={activity.link}
+                    className="text-blue-600 hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {activity.link}
+                  </a>
+                </p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </Section>
       </section>
+      
 
       <CommandMenu
         links={[

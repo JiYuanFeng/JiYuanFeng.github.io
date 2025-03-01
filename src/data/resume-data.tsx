@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
     "Researcher specializing in artificial intelligence applications in medicine, focused on advancing reliable and impactful healthcare technologies.",
   summary:
-    "I am dedicated to pioneering AI solutions in medical imaging and digital pathology. My work is driven by a commitment to developing robust and trustworthy systems that can contribute to advancements in healthcare diagnostics and treatment planning.",
+    "I am dedicated to pioneering AI solutions in medical imaging and computer vision. My work is driven by a commitment to developing robust and trustworthy systems that can contribute to advancements in healthcare diagnostics and treatment planning.",
   avatarUrl: "/image.png",
   personalWebsiteUrl: "https://jiyuanfeng.github.io/",
   contact: {
@@ -80,8 +80,19 @@ export const RESUME_DATA = {
   ],
   publications: [
     {
+      "title": "SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding",
+      "badges": ["CVPR25"],
+      "authors": "Ying Chen*, Guoan Wang*, Yuanfeng Ji*#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He#",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2410.11761"
+        }
+      ]
+    },
+    {
       "title": "CompGS: Unleashing 2D Compositionality for Compositional Text-to-3D via Dynamically Optimizing 3D Gaussians",
-      "badges": ["Tech Report"],
+      "badges": ["CVPR25"],
       "authors": "Chongjian Ge, Chenfeng Xu, Yuanfeng Ji, Chensheng Peng, Masayoshi Tomizuka, Ping Luo, Mingyu Ding, Varun Jampani, Wei Zhan",
       "links": [
         {
@@ -91,18 +102,6 @@ export const RESUME_DATA = {
         {
           "label": "project",
           "url": "https://chongjiange.github.io/compgs.html"
-        }
-      ]
-    },
-    {
-      "title": "SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding",
-      "badges": ["Tech Report"],
-      "year": "2024",
-      "authors": "Ying Chen*, Guoan Wang*, Yuanfeng Ji*#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He#",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2410.11761"
         }
       ]
     },
@@ -426,11 +425,33 @@ export const RESUME_DATA = {
       link: "https://www.kaggle.com/c/human-protein-atlas-image-classification",
     }
   ],
+  activities: [
+    {
+      title: "AMOS: Abdominal Multi-Organ Segmentation Challenge",
+      link: "https://amos22.grand-challenge.org/",
+    },
+    {
+      title: "MICCAI 2024 AMOS-MM: Abdominal Multimodal Analysis Challenge",
+      link: "https://amos-mm.grand-challenge.org/",
+    },
+  ],
   news: [
     {
-      title: "Hiring Internship Positions for Medical AGI Research",
+      title: "Served as an Area Chair for MICCAI 2025",
+      date: "2025-02-28",
+      description: "I'm very excited to have the opportunity to contribute to the community!",
+      link: "",
+    },
+    {
+      title: "Two papers accepted by CVPR 2025",
+      date: "2025-02-28",
+      description: "Congratulations to my co-authors for their excellent work!",
+      link: "",
+    },
+    {
+      title: "Hiring Internship Positions for AI + Healthcare Research",
       date: "2024-11-11",
-      description: "Our team is looking for talented interns to join us in exploring Medical AGI. For detailed information, please see the link. If you're interested and passionate, feel free to reach out directly!",
+      description: "We are seeking talented students for AI + Healthcare positions, focusing on foundation models, generative models, and large-scale pre-trained datasets. If you are interested, please feel free to contact me!",
       link: "https://www.xiaohongshu.com/explore/672a20b7000000001b02e05d?app_platform=android&ignoreEngage=true&app_version=8.58.0&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBbHMhqciUrFq55JAzY43nmv_0rOqQQMnJubUEmchn_mw=&author_share=1&xhsshare=WeixinSession&shareRedId=N0pGNUhLRUs2NzUyOTgwNjY0OTc5NUxL&apptime=1730912776&share_id=b0d1e8b70625499aa9c7e1898cd5f932",
     },
     {
