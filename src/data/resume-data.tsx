@@ -26,9 +26,9 @@ export const RESUME_DATA = {
   location: "California, USA, PT",
   locationLink: "https://www.google.com/maps/place/California",
   about:
-    "Researcher specializing in artificial intelligence applications in medicine, focused on advancing reliable and impactful healthcare technologies.",
+    "AI researcher focused on medical imaging and computer vision. Originally from Chaoshan region, China.",
   summary:
-    "I am dedicated to pioneering AI solutions in medical imaging and computer vision. My work is driven by a commitment to developing robust and trustworthy systems that can contribute to advancements in healthcare diagnostics and treatment planning.",
+    "Postdoctoral researcher at Stanford University specializing in AI-driven precision medicine. I focus on developing innovative multimodal AI systems for medical imaging, with expertise spanning computer vision, generative models, and medical image analysis. My research bridges the gap between cutting-edge AI technology and real-world clinical applications.",
   avatarUrl: "/image.png",
   personalWebsiteUrl: "https://jiyuanfeng.github.io/",
   contact: {
@@ -44,11 +44,6 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/yuanfeng-ji/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/YuanfengJi",
-        icon: XIcon,
       },
     ],
   },
@@ -80,6 +75,66 @@ export const RESUME_DATA = {
   ],
   publications: [
     {
+      "title": "ChexGen: A Generative Foundation Model for Chest Radiography",
+      "badges": ["arxiv"],
+      "year": "2025",
+      "authors": "Yuanfeng Ji, Dan Lin, Xiyue Wang, Lu Zhang, Wenhui Zhou, Chongjian Ge, Ruihang Chu, Xiaoli Yang, Junhan Zhao, Junsong Chen, Xiangde Luo, Sen Yang, Jin Fang, Ping Luo, Ruijiang Li",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2509.03903"
+        }
+      ]
+    },
+    {
+      "title": "GMAI-VL-R1: Harnessing Reinforcement Learning for Multimodal Medical Reasoning",
+      "badges": ["arxiv"],
+      "year": "2025",
+      "authors": "Yanzhou Su, Tianbin Li, Jiyao Liu, Chenglong Ma, Junzhi Ning, Cheng Tang, Sibo Ju, Jin Ye, Pengcheng Chen, Ming Hu, Shixiang Tang, Lihao Liu, Bin Fu, Wenqi Shao, Xiaowei Hu, Xiangwen Liao, Yuanfeng Ji#, Junjun He#",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2504.01886"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/uni-medical/GMAI-VL-R1"
+        }
+      ]
+    },
+    {
+      "title": "MedITok: A Unified Tokenizer for Medical Image Synthesis and Interpretation",
+      "badges": ["arxiv"],
+      "year": "2024",
+      "authors": "Chenglong Ma*, Yuanfeng Ji*, Jin Ye, Zilong Li, Chenhui Wang, Junzhi Ning, Wei Li, Lihao Liu, Qiushan Guo, Tianbin Li, Junjun He, Hongming Shan",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2505.19225"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/Masaaki-75/meditok"
+        }
+      ]
+    },
+    {
+      "title": "Towards Interpretable Counterfactual Generation via Multimodal Autoregression",
+      "badges": ["MICCAI25"],
+      "year": "2024", 
+      "authors": "Chenglong Ma*, Yuanfeng Ji*, Jin Ye, Lu Zhang, Ying Chen, Tianbin Li, Mingjie Li, Junjun He, Hongming Shan",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2503.23149"
+        },
+        {
+          "label": "project",
+          "url": "https://progemu.github.io"
+        }
+      ]
+    },
+    {
       "title": "SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding",
       "badges": ["CVPR25"],
       "authors": "Ying Chen*, Guoan Wang*, Yuanfeng Ji*#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He#",
@@ -107,7 +162,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "SyNDock: N Rigid Protein Docking via Learnable Group Synchronization",
-      "badges": ["Tech Report"],
+      "badges": ["arxiv"],
       "year": "2023",
       "authors": "Yuanfeng Ji, Yatao Bian, Guoji Fu, Peilin Zhao, Ping Luo",
       "links": [
@@ -203,7 +258,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "Multi-Compound Transformer for Accurate Biomedical Image Segmentation",
-      "badges": ["MICCAI21", "EA"],
+      "badges": ["MICCAI21"],
       "year": "2021",
       "authors": "Yuanfeng Ji, Ruimao Zhang, Huijie Wang, Zhen Li, Lingyun Wu, Shaoting Zhang, Ping Luo",
       "links": [
@@ -219,7 +274,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "UXNet: Searching Multi-level Feature Aggregation for 3D Medical Image Segmentation",
-      "badges": ["MICCAI20", "EA"],
+      "badges": ["MICCAI20"],
       "year": "2020",
       "authors": "Yuanfeng Ji, Ruimao Zhang, Zhen Li, Jiamin Ren, Shaoting Zhang, Ping Luo",
       "links": [
@@ -252,7 +307,7 @@ export const RESUME_DATA = {
     {
       "title": "PRSNet: Part Relation and Selection Network for Bone Age Assessment",
       "badge": "MICCAI19",
-      "badges": ["MICCAI2019", "EA"],
+      "badges": ["MICCAI2019"],
       "year": "2019",
       "authors": "Yuanfeng Ji, Hao Chen, Dan Lin, Xiaohua Wu, Di Lin",
       "links": [
@@ -298,17 +353,6 @@ export const RESUME_DATA = {
       end: "2024",
       description:
         "Engaged in AI applications for precision medicine under the guidance of Prof. Ruijiang Li.",
-    },
-    {
-      company: "Huawei Noah's Ark Lab",
-      link: "https://www.noahlab.com.hk/",
-      badges: [],
-      title: "Research Intern",
-      logo: NSNLogo,
-      start: "2022",
-      end: "2023",
-      description:
-        "Developed AI models for predicting cancer treatment outcomes, focusing on precision medicine.",
     },
     {
       company: "Tencent AI Lab",
@@ -427,15 +471,40 @@ export const RESUME_DATA = {
   ],
   activities: [
     {
+      title: "GAIA: Generative AI for Biomedical Image Analysis Workshop",
+      year: "ICCV 2025",
+      link: "https://era-ai-biomed.github.io/GAIA/",
+    },
+    {
       title: "AMOS: Abdominal Multi-Organ Segmentation Challenge",
+      year: "MICCAI 2022",
       link: "https://amos22.grand-challenge.org/",
     },
     {
-      title: "MICCAI 2024 AMOS-MM: Abdominal Multimodal Analysis Challenge",
+      title: "AMOS-MM: Abdominal Multimodal Analysis Challenge",
+      year: "MICCAI 2024",
       link: "https://amos-mm.grand-challenge.org/",
     },
   ],
   news: [
+    {
+      title: "GAIA Workshop Now Accepting Paper Submissions",
+      date: "2025-06-15",
+      description: "Our ICCV 2025 workshop 'GAIA: Generative AI for Biomedical Image Analysis' is now accepting paper submissions! Paper submission deadline is August 20, 2025. We welcome submissions on medical image generation, vision-language foundation models, clinical workflow intelligence, and more.",
+      link: "https://era-ai-biomed.github.io/GAIA/",
+    },
+    {
+      title: "Two Papers Accepted by MICCAI 2025",
+      date: "2025-06-15",
+      description: "Two papers have been accepted by MICCAI 2025! 'Towards Interpretable Counterfactual Generation via Multimodal Autoregression' was accepted as Early Accept, and another paper on medical imaging analysis was also accepted. Grateful to all my collaborators for their excellent work!",
+      link: "",
+    },
+    {
+      title: "GAIA Workshop Proposal Accepted at ICCV 2025",
+      date: "2025-06-04",
+      description: "Our workshop proposal 'GAIA: Generative AI for Biomedical Image Analysis - Opportunities, Challenges and Futures' has been accepted at ICCV 2025! Looking forward to bringing together leading researchers to explore the future of generative AI in medical imaging.",
+      link: "https://era-ai-biomed.github.io/GAIA/",
+    },
     {
       title: "Served as an Area Chair for MICCAI 2025",
       date: "2025-02-28",
@@ -449,17 +518,10 @@ export const RESUME_DATA = {
       link: "",
     },
     {
-      title: "Hiring Internship Positions for AI + Healthcare Research",
-      date: "2024-11-11",
-      description: "We are seeking talented students for AI + Healthcare positions, focusing on foundation models, generative models, and large-scale pre-trained datasets. If you are interested, please feel free to contact me!",
-      link: "https://www.xiaohongshu.com/explore/672a20b7000000001b02e05d?app_platform=android&ignoreEngage=true&app_version=8.58.0&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBbHMhqciUrFq55JAzY43nmv_0rOqQQMnJubUEmchn_mw=&author_share=1&xhsshare=WeixinSession&shareRedId=N0pGNUhLRUs2NzUyOTgwNjY0OTc5NUxL&apptime=1730912776&share_id=b0d1e8b70625499aa9c7e1898cd5f932",
-    },
-    {
       title: "Joined LiLab as a Postdoctoral Researcher",
       date: "2024-11-1",
       description: "I completed my Ph.D. in August 2024 and have joined Li Lab at Stanford University as a postdoctoral researcher.",
       link: "https://profiles.stanford.edu/yuanfeng-ji",
     }
   ]
-
 } as const;
