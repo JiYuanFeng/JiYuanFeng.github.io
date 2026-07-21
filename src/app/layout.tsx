@@ -9,12 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
   title: "Yuanfeng Ji - AI Researcher",
-  description: "AI researcher focused on medical imaging and computer vision. Originally from Chaoshan region, China.",
-  icons: {
-    icon: '/pipi.png',
-    shortcut: '/pipi.png',
-    apple: '/pipi.png',
-  },
+  description: "AI researcher focused on medical imaging and computer vision.",
 };
 
 // If loading a variable font, you don't need to specify the font weight

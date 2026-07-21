@@ -16,9 +16,10 @@ import { CommandIcon } from "lucide-react";
 
 interface Props {
   links: { url: string; title: string }[];
+  sections?: { hash: string; title: string }[];
 }
 
-export const CommandMenu = ({ links }: Props) => {
+export const CommandMenu = ({ links, sections }: Props) => {
   const [open, setOpen] = React.useState(false);
 
   React.useEffect(() => {
@@ -54,6 +55,27 @@ export const CommandMenu = ({ links }: Props) => {
         <CommandInput placeholder="Type a command or search..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
+          {sections && sections.length > 0 && (
+            <>
+              <CommandGroup heading="Jump to">
+                {sections.map(({ hash, title }) => (
+                  <CommandItem
+                    key={hash}
+                    onSelect={() => {
+                      setOpen(false);
+                      const id = hash.replace(/^#/, "");
+                      const el = document.getElementById(id);
+                      el?.scrollIntoView({ behavior: "smooth" });
+                      window.history.replaceState(null, "", `#${id}`);
+                    }}
+                  >
+                    <span>{title}</span>
+                  </CommandItem>
+                ))}
+              </CommandGroup>
+              <CommandSeparator />
+            </>
+          )}
           <CommandGroup heading="Actions">
             <CommandItem
               onSelect={() => {
