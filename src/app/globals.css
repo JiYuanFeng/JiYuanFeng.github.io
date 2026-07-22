@@ -85,6 +85,13 @@
   }
 }
 
+@layer components {
+  .content-link,
+  .rich-links a {
+    @apply text-blue-600 underline-offset-2 transition-colors hover:text-blue-700 hover:underline dark:text-blue-400 dark:hover:text-blue-300 print:text-inherit;
+  }
+}
+
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }

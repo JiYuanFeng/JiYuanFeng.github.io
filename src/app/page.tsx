@@ -94,7 +94,7 @@ export default function Page() {
                 Open to collaborations —{" "}
                 <a
                   href={`mailto:${RESUME_DATA.contact.email}`}
-                  className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  className="content-link"
                 >
                   email me
                 </a>
@@ -125,12 +125,12 @@ export default function Page() {
           <Section>
             <h2 id="about" className="text-[13px] font-bold scroll-mt-16">About</h2>
             <p
-              className="text-pretty text-xs text-foreground print:text-[12px]"
+              className="rich-links text-pretty text-xs text-foreground print:text-[12px]"
               dangerouslySetInnerHTML={{ __html: RESUME_DATA.summary }}
             />
             <Link
               href="/research"
-              className="mt-2 inline-block text-[11px] text-muted-foreground hover:text-foreground hover:underline print:hidden"
+              className="content-link mt-2 inline-block text-[11px] print:hidden"
             >
               See research scope →
             </Link>
@@ -195,10 +195,10 @@ export default function Page() {
         <AnimatedSection delay={0.2}>
           <Section className="print-force-new-page scroll-mb-16">
             <div className="flex items-center justify-between">
-              <h2 id="publications" className="text-[13px] font-bold scroll-mt-16">Publications</h2>
+              <h2 id="publications" className="text-[13px] font-bold scroll-mt-16">Selected Publications</h2>
               <Link
                 href="/publications"
-                className="text-[11px] text-muted-foreground hover:underline"
+                className="content-link text-[11px]"
               >
                 Full publication list →
               </Link>
@@ -480,14 +480,7 @@ export default function Page() {
                       </a>
                     </h3>
                     <p className="mt-1 text-[11px] text-gray-700 dark:text-gray-300">
-                      <a
-                        href={activity.link}
-                        className="text-blue-600 hover:underline dark:text-blue-400"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {activity.link}
-                      </a>
+                      {activity.role}
                     </p>
                   </div>
                 ))}
@@ -503,7 +496,7 @@ export default function Page() {
           { hash: "#about", title: "About" },
           { hash: "#news", title: "News" },
           { hash: "#education", title: "Education" },
-          { hash: "#publications", title: "Publications" },
+          { hash: "#publications", title: "Selected Publications" },
           { hash: "#experience", title: "Work Experience" },
           { hash: "#awards", title: "Awards & Achievements" },
           { hash: "#activities", title: "Activities" },

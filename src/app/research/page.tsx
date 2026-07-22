@@ -16,196 +16,224 @@ export default function ResearchPage() {
       <section className="mx-auto w-full max-w-2xl space-y-8">
         <Link
           href="/"
-          className="inline-flex items-center gap-1 text-[11px] text-muted-foreground hover:underline"
+          className="content-link inline-flex items-center gap-1 text-[11px]"
         >
           <ArrowLeftIcon className="size-3" />
           Back to homepage
         </Link>
 
         <div className="space-y-4">
-          <h1 className="text-lg font-bold">Research</h1>
-          <p className="text-pretty text-[13px] leading-relaxed text-foreground">
-            I build <b>AI foundation models for biomedicine</b> that span scales —
+          <h1 className="text-base font-bold">Research</h1>
+          <p className="text-pretty text-xs leading-relaxed text-foreground">
+            I build <span className="text-blue-600 dark:text-blue-400">AI foundation models for biomedicine</span> that span scales,
             from organ-level radiology, through tissue-level pathology, down to
-            the cell-and-molecular context of spatial biology — and translate
+            the cell-and-molecular context of spatial biology, and translate
             them into tools that close the loop between{" "}
-            <b>clinical diagnosis</b> and <b>biomedical discovery</b>.
+            <span className="text-blue-600 dark:text-blue-400">clinical diagnosis</span> and <span className="text-blue-600 dark:text-blue-400">biomedical discovery</span>.
           </p>
-          <p className="text-pretty text-[13px] leading-relaxed text-foreground">
+          <p className="text-pretty text-xs leading-relaxed text-foreground">
             My current work targets two long-term directions:
           </p>
-          <ul className="ml-5 list-disc space-y-2 text-pretty text-[13px] leading-relaxed text-foreground">
+          <ul className="ml-5 list-disc space-y-2 text-pretty text-xs leading-relaxed text-foreground">
             <li>
-              <b>Whole-patient foundation models</b> that integrate imaging,
+              <span className="text-blue-600 dark:text-blue-400">Whole-patient foundation models</span> that integrate imaging,
               pathology, clinical notes, and longitudinal signals to support
               diagnosis and treatment-response prediction.
             </li>
             <li>
-              <b>Spatial-omics foundation models</b> that unify transcriptomics,
+              <span className="text-blue-600 dark:text-blue-400">Spatial-omics foundation models</span> that unify transcriptomics,
               proteomics, and morphology to enable biomarker discovery and
               disease-mechanism analysis.
             </li>
           </ul>
-          <p className="text-pretty text-[13px] leading-relaxed text-foreground">
+          <p className="text-pretty text-xs leading-relaxed text-foreground">
             Both directions are connected by{" "}
-            <b>generative modeling, vision-language models, and agentic
-            reasoning</b>{" "}
+            <span className="text-blue-600 dark:text-blue-400">generative modeling, vision-language models, and agentic
+            reasoning</span>{" "}
             as common interfaces across modalities.
           </p>
         </div>
 
         <img
           src="/research-scope.png"
-          alt="Multiscale Biomedical Foundation Models — research scope across radiology, pathology, and spatial biology, applied to clinical diagnosis and biomedical discovery."
+          alt="Research framework connecting patient-level longitudinal clinical evidence with tissue-level tumor ecosystem evidence through multimodal generative agentic AI for precision oncology and biological discovery."
           className="w-full"
         />
 
         <div className="space-y-4">
-          <h2 className="text-sm font-bold">Concrete projects across scales</h2>
-          <ul className="ml-5 list-disc space-y-2 text-pretty text-[13px] leading-relaxed text-foreground">
+          <h2 className="text-[13px] font-bold">Concrete projects across scales</h2>
+          <ul className="ml-5 list-disc space-y-2 text-pretty text-xs leading-relaxed text-foreground">
             <li>
-              <b>Radiology</b> —{" "}
-              <a
-                href="https://arxiv.org/abs/2509.03903"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-              >
-                ChexGen
-              </a>{" "}
-              (NEJM AI 2026): a generative foundation model for chest
-              radiography.
+              <span className="text-blue-600 dark:text-blue-400">Radiology &amp; Pathology</span>
+              <ul className="ml-5 mt-1 list-disc space-y-1">
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2509.03903"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    ChexGen
+                  </a>{" "}
+                  (NEJM AI 2026): a generative foundation model for chest
+                  radiography.
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2410.11761"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    SlideChat
+                  </a>{" "}
+                  (CVPR 2025): a vision-language assistant for whole-slide pathology.
+                </li>
+              </ul>
             </li>
             <li>
-              <b>Pathology</b> —{" "}
-              <a
-                href="https://arxiv.org/abs/2410.11761"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-              >
-                SlideChat
-              </a>{" "}
-              (CVPR 2025): a vision-language assistant for whole-slide pathology.
+              <span className="text-blue-600 dark:text-blue-400">Spatial Biology</span>
+              <ul className="ml-5 mt-1 list-disc space-y-1">
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2606.24235"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    SP-Mind
+                  </a>{" "}
+                  (ICML 2026): an autonomous reasoning agent for spatial proteomics.
+                </li>
+              </ul>
             </li>
             <li>
-              <b>Spatial Biology</b> — SP-Mind (ICML 2026): an autonomous
-              reasoning agent for spatial proteomics.
-            </li>
-            <li>
-              <b>Generative &amp; VL</b> —{" "}
-              <a
-                href="https://arxiv.org/abs/2505.19225"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-              >
-                MedITok
-              </a>{" "}
-              (a unified tokenizer for medical image synthesis &amp;
-              interpretation),{" "}
-              <a
-                href="https://arxiv.org/abs/2504.01886"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-              >
-                GMAI-VL-R1
-              </a>{" "}
-              (reinforcement learning for medical reasoning).
-            </li>
-            <li>
-              <b>Drug Discovery</b> —{" "}
-              <a
-                href="https://arxiv.org/abs/2201.09637"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-              >
-                DrugOOD
-              </a>{" "}
-              (AAAI 2022 Oral, OOD benchmark for AI-aided drug discovery),{" "}
-              <a
-                href="https://arxiv.org/abs/2305.15156"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-              >
-                SyNDock
-              </a>{" "}
-              (multi-protein docking via learnable group synchronization).
+              <span className="text-blue-600 dark:text-blue-400">Generative &amp; VL</span>
+              <ul className="ml-5 mt-1 list-disc space-y-1">
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2505.19225"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    MedITok
+                  </a>
+                  : a unified tokenizer for medical image synthesis &amp;
+                  interpretation.
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2504.01886"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    GMAI-VL-R1
+                  </a>
+                  : reinforcement learning for medical reasoning.
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
 
         <div className="space-y-4">
-          <h2 className="text-sm font-bold">Datasets &amp; Benchmarks</h2>
-          <p className="text-pretty text-[13px] leading-relaxed text-foreground">
-            Beyond models, I lead community benchmarks that establish
-            standardized evaluation across scales.
-          </p>
-          <ul className="ml-5 list-disc space-y-2 text-pretty text-[13px] leading-relaxed text-foreground">
+          <h2 className="text-[13px] font-bold">Datasets &amp; Benchmarks</h2>
+          <ul className="ml-5 list-disc space-y-2 text-pretty text-xs leading-relaxed text-foreground">
             <li>
-              <b>
-                <a
-                  href="https://amos22.grand-challenge.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-                >
-                  AMOS
-                </a>
-              </b>{" "}
-              (NeurIPS 2022 Oral) — large-scale abdominal multi-organ
-              segmentation; the most widely used multi-organ benchmark in the
-              field.
+              <span className="text-blue-600 dark:text-blue-400">Radiology &amp; Pathology</span>
+              <ul className="ml-5 mt-1 list-disc space-y-1">
+                <li>
+                  <a
+                    href="https://amos22.grand-challenge.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    AMOS
+                  </a>{" "}
+                  (NeurIPS 2022 Oral): large-scale abdominal multi-organ
+                  segmentation; the most widely used multi-organ benchmark in the
+                  field.
+                </li>
+                <li>
+                  <a
+                    href="https://www.codabench.org/competitions/3137/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    AMOS-MM
+                  </a>{" "}
+                  (MICCAI 2024 Challenge): the first multimodal CT analysis
+                  benchmark for report generation and visual question answering.
+                </li>
+                <li>
+                  <a
+                    href="https://huggingface.co/datasets/General-Medical-AI/SlideChat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    SlideInstruction
+                  </a>
+                  : a WSI instruction dataset with 4.2K captions and 176K VQA
+                  pairs.
+                </li>
+                <li>
+                  <a
+                    href="https://huggingface.co/datasets/General-Medical-AI/SlideChat"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    SlideBench
+                  </a>
+                  : a WSI multimodal benchmark spanning captioning and VQA across
+                  21 clinical tasks.
+                </li>
+              </ul>
             </li>
             <li>
-              <b>
-                <a
-                  href="https://www.codabench.org/competitions/3137/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-                >
-                  AMOS-MM
-                </a>
-              </b>{" "}
-              (MICCAI 2024 Challenge) — the first multimodal CT analysis
-              benchmark for report generation and visual question answering.
-            </li>
-            <li>
-              <b>
-                <a
-                  href="https://arxiv.org/abs/2201.09637"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-                >
-                  DrugOOD
-                </a>
-              </b>{" "}
-              (AAAI 2022 Oral) — out-of-distribution generalization benchmark
-              for AI-aided drug discovery.
-            </li>
-            <li>
-              <b>
-                <a
-                  href="https://arxiv.org/abs/2311.14580"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
-                >
-                  AutoBench
-                </a>
-              </b>{" "}
-              (ICLR 2024) — automatic benchmark using LLMs as aligners for
-              evaluating biomedical vision-language models.
-            </li>
-            <li>
-              <b>GMAI-Reasoning10K</b> — a high-quality 10K medical visual
-              question-answering instruction dataset for training and
-              evaluating medical reasoning.
+              <span className="text-blue-600 dark:text-blue-400">General</span>
+              <ul className="ml-5 mt-1 list-disc space-y-1">
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2201.09637"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    DrugOOD
+                  </a>{" "}
+                  (AAAI 2022 Oral): out-of-distribution generalization benchmark
+                  for AI-aided drug discovery.
+                </li>
+                <li>
+                  <a
+                    href="https://arxiv.org/abs/2311.14580"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    AutoBench
+                  </a>{" "}
+                  (ICLR 2024): automatic benchmark using LLMs as aligners for
+                  evaluating vision-language models.
+                </li>
+                <li>
+                  <a
+                    href="https://huggingface.co/datasets/General-Medical-AI/GMAI-Reasoning10K"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-foreground underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground"
+                  >
+                    GMAI-Reasoning10K
+                  </a>
+                  : a 10K medical VQA instruction dataset for medical reasoning.
+                </li>
+              </ul>
             </li>
           </ul>
         </div>

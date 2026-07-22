@@ -102,6 +102,22 @@ export const RESUME_DATA = {
         }
       ]
     },
+    {
+      "title": "A Generative Foundation Model for Multimodal Histopathology",
+      "badges": ["arXiv"],
+      "year": "2026",
+      "authors": "Jinxi Xiang, Mingjie Li, Siyu Hou, Yijiang Chen, Xiangde Luo, Yuanfeng Ji, Xiang Zhou, Ehsan Adeli, Akshay Chaudhari, Curtis P. Langlotz, Kilian M. Pohl, Ruijiang Li",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2604.03635"
+        },
+        {
+          "label": "scholar",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=7HGv1bkAAAAJ&cstart=20&pagesize=80&citation_for_view=7HGv1bkAAAAJ:ZeXyd9-uunAC"
+        }
+      ]
+    },
     /* {
       "title": "A Unified Foundation Model of Spatial Proteomics for Biomedical Discovery",
       "badges": ["Under Review @ Nature"],
@@ -618,7 +634,7 @@ export const RESUME_DATA = {
       start: "2024",
       end: null,
       description:
-        "Engaged in AI applications for precision medicine under the guidance of Prof. Ruijiang Li.",
+        "Developing multimodal foundation models and AI agents for computational pathology, radiology, and spatial biology; leading a 2026–2027 Fast Grant project on AI-assisted spatial-proteomics biomarker discovery.",
     },
     {
       company: "Stanford University",
@@ -629,7 +645,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2024",
       description:
-        "Engaged in AI applications for precision medicine under the guidance of Prof. Ruijiang Li.",
+        "Developed generative and vision-language models for precision medicine, with a focus on chest radiography and whole-slide computational pathology.",
     },
     {
       company: "Huawei Noah's Ark Lab",
@@ -640,7 +656,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2023",
       description:
-        "Worked on vision foundation models.",
+        "Developed vision foundation models for dense visual prediction tasks.",
     },
     {
       company: "Tencent AI Lab",
@@ -761,16 +777,19 @@ export const RESUME_DATA = {
     {
       title: "GAIA: Generative AI for Biomedical Image Analysis Workshop",
       year: "ICCV 2025",
+      role: "Initiator",
       link: "https://era-ai-biomed.github.io/GAIA/",
     },
     {
       title: "AMOS: Abdominal Multi-Organ Segmentation Challenge",
       year: "MICCAI 2022",
+      role: "Initiator",
       link: "https://amos22.grand-challenge.org/",
     },
     {
       title: "AMOS-MM: Abdominal Multimodal Analysis Challenge",
       year: "MICCAI 2024",
+      role: "Initiator",
       link: "https://www.codabench.org/competitions/3137/",
     },
   ],
@@ -778,25 +797,25 @@ export const RESUME_DATA = {
     {
       title: "Received a Biswas Family Foundation Fast Grant",
       date: "2026-07-10",
-      description: "Received USD 50,000 in funding to lead the 2026–2027 project\n“An AI Co-Scientist for Spatial-Proteomics Biomarker Discovery.”",
+      description: "Received USD 50,000 from the Biswas Family Foundation to lead the 2026–2027 project\n“An AI Co-Scientist for Spatial-Proteomics Biomarker Discovery.”",
       link: "https://www.biswasfamilyfoundation.org/science/fast-grants",
     },
     {
       title: "Cell Paper Published",
       date: "2026-06-17",
-      description: "Congratulations to Yuchen Li on the Cell paper.",
+      description: "Published a collaborative study in Cell on virtual spatial tumor profiling from histopathology.",
       link: "https://www.cell.com/cell/fulltext/S0092-8674(26)00590-8",
     },
     {
-      title: "nnMIL Accepted by Nature Biomedical Engineering",
+      title: "nnMIL Accepted in Principle by Nature Biomedical Engineering",
       date: "2026-06-17",
-      description: "Congratulations to Xiangde Luo on nnMIL.",
+      description: "nnMIL, a generalizable multiple instance learning framework for computational pathology, was accepted in principle by Nature Biomedical Engineering.",
       link: "https://arxiv.org/abs/2511.14907",
     },
     {
-      title: "Two Papers Accepted by ICML 2026",
+      title: "Two Papers Accepted to ICML 2026",
       date: "2026-05-01",
-      description: "Two papers have been accepted by ICML 2026. Congratulations to all collaborators!",
+      description: "Two collaborative papers were accepted to ICML 2026.",
       link: "",
     },
     /* {
@@ -808,43 +827,43 @@ export const RESUME_DATA = {
     {
       title: "ChexGen Accepted by NEJM AI",
       date: "2026-04-01",
-      description: "Our paper 'ChexGen: A Generative Foundation Model for Chest Radiography' has been accepted by NEJM AI! Grateful to all my collaborators for their outstanding contributions.",
+      description: "ChexGen, a generative foundation model for chest radiography, was accepted by NEJM AI.",
       link: "https://arxiv.org/abs/2509.03903",
     },
     {
-      title: "GAIA Workshop Now Accepting Paper Submissions",
+      title: "GAIA Workshop Opened Its Call for Papers",
       date: "2025-06-15",
-      description: "Our ICCV 2025 workshop 'GAIA: Generative AI for Biomedical Image Analysis' is now accepting paper submissions! Paper submission deadline is August 20, 2025. We welcome submissions on medical image generation, vision-language foundation models, clinical workflow intelligence, and more.",
+      description: "The GAIA workshop at ICCV 2025 opened its call for papers on medical image generation, vision-language foundation models, and clinical workflow intelligence.",
       link: "https://era-ai-biomed.github.io/GAIA/",
     },
     {
-      title: "Two Papers Accepted by MICCAI 2025",
+      title: "Two Papers Accepted to MICCAI 2025",
       date: "2025-06-15",
-      description: "Two papers have been accepted by MICCAI 2025! 'Towards Interpretable Counterfactual Generation via Multimodal Autoregression' was accepted as Early Accept, and another paper on medical imaging analysis was also accepted. Grateful to all my collaborators for their excellent work!",
+      description: "Two collaborative papers were accepted to MICCAI 2025, including “Towards Interpretable Counterfactual Generation via Multimodal Autoregression” as an Early Accept.",
       link: "",
     },
     {
-      title: "GAIA Workshop Proposal Accepted at ICCV 2025",
+      title: "GAIA Workshop Accepted to ICCV 2025",
       date: "2025-06-04",
-      description: "Our workshop proposal 'GAIA: Generative AI for Biomedical Image Analysis - Opportunities, Challenges and Futures' has been accepted at ICCV 2025! Looking forward to bringing together leading researchers to explore the future of generative AI in medical imaging.",
+      description: "The GAIA workshop proposal was accepted to ICCV 2025 to bring together researchers in generative AI for biomedical image analysis.",
       link: "https://era-ai-biomed.github.io/GAIA/",
     },
     {
       title: "Served as an Area Chair for MICCAI 2025",
       date: "2025-02-28",
-      description: "I'm very excited to have the opportunity to contribute to the community!",
+      description: "Served as an Area Chair for MICCAI 2025, contributing to the conference review process.",
       link: "",
     },
     {
-      title: "Two papers accepted by CVPR 2025",
+      title: "Two Papers Accepted to CVPR 2025",
       date: "2025-02-28",
-      description: "Congratulations to my co-authors for their excellent work!",
+      description: "Two collaborative papers were accepted to CVPR 2025.",
       link: "",
     },
     {
-      title: "Joined LiLab as a Postdoctoral Researcher",
+      title: "Joined Li Lab as a Postdoctoral Researcher",
       date: "2024-11-1",
-      description: "I completed my Ph.D. in August 2024 and have joined Li Lab at Stanford University as a postdoctoral researcher.",
+      description: "Joined Li Lab at Stanford University as a postdoctoral researcher after completing my PhD in August 2024.",
       link: "https://profiles.stanford.edu/yuanfeng-ji",
     }
   ]

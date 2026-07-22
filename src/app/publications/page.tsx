@@ -27,7 +27,7 @@ export default function PublicationsPage() {
         <div className="flex items-center justify-between">
           <Link
             href="/"
-            className="inline-flex items-center gap-1 text-[11px] text-muted-foreground hover:underline"
+            className="content-link inline-flex items-center gap-1 text-[11px]"
           >
             <ArrowLeftIcon className="size-3" />
             Back to homepage
@@ -36,7 +36,7 @@ export default function PublicationsPage() {
             href="https://scholar.google.com/citations?user=7HGv1bkAAAAJ"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[11px] text-muted-foreground hover:underline"
+            className="content-link text-[11px]"
           >
             Google Scholar →
           </a>
