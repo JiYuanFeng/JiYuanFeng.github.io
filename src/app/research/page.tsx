@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeftIcon } from "lucide-react";
 import { ModeToggle } from "@/components/mode-toggle";
+import { Section } from "@/components/ui/section";
 import { RESUME_DATA } from "@/data/resume-data";
 
 export const metadata: Metadata = {
@@ -22,37 +23,53 @@ export default function ResearchPage() {
           Back to homepage
         </Link>
 
-        <div className="space-y-4">
+        <Section>
           <h1 className="text-base font-bold">Research</h1>
           <p className="text-pretty text-xs leading-relaxed text-foreground">
-            I build <span className="text-blue-600 dark:text-blue-400">AI foundation models for biomedicine</span> that span scales,
-            from organ-level radiology, through tissue-level pathology, down to
-            the cell-and-molecular context of spatial biology, and translate
-            them into tools that close the loop between{" "}
-            <span className="text-blue-600 dark:text-blue-400">clinical diagnosis</span> and <span className="text-blue-600 dark:text-blue-400">biomedical discovery</span>.
+            I build{" "}
+            <span className="text-blue-600 dark:text-blue-400">
+              AI foundation models for biomedicine
+            </span>{" "}
+            that span scales, from organ-level radiology, through tissue-level
+            pathology, down to the cell-and-molecular context of spatial
+            biology, and translate them into tools that close the loop between{" "}
+            <span className="text-blue-600 dark:text-blue-400">
+              clinical diagnosis
+            </span>{" "}
+            and{" "}
+            <span className="text-blue-600 dark:text-blue-400">
+              biomedical discovery
+            </span>
+            .
           </p>
           <p className="text-pretty text-xs leading-relaxed text-foreground">
             My current work targets two long-term directions:
           </p>
-          <ul className="ml-5 list-disc space-y-2 text-pretty text-xs leading-relaxed text-foreground">
-            <li>
-              <span className="text-blue-600 dark:text-blue-400">Whole-patient foundation models</span> that integrate imaging,
-              pathology, clinical notes, and longitudinal signals to support
-              diagnosis and treatment-response prediction.
+          <ul className="space-y-1 text-pretty text-[11px] leading-relaxed text-foreground">
+            <li className="px-2 py-2.5">
+              <span className="text-blue-600 dark:text-blue-400">
+                Whole-patient foundation models
+              </span>{" "}
+              that integrate imaging, pathology, clinical notes, and
+              longitudinal signals to support diagnosis and treatment-response
+              prediction.
             </li>
-            <li>
-              <span className="text-blue-600 dark:text-blue-400">Spatial-omics foundation models</span> that unify transcriptomics,
-              proteomics, and morphology to enable biomarker discovery and
-              disease-mechanism analysis.
+            <li className="px-2 py-2.5">
+              <span className="text-blue-600 dark:text-blue-400">
+                Spatial-omics foundation models
+              </span>{" "}
+              that unify transcriptomics, proteomics, and morphology to enable
+              biomarker discovery and disease-mechanism analysis.
             </li>
           </ul>
           <p className="text-pretty text-xs leading-relaxed text-foreground">
             Both directions are connected by{" "}
-            <span className="text-blue-600 dark:text-blue-400">generative modeling, vision-language models, and agentic
-            reasoning</span>{" "}
+            <span className="text-blue-600 dark:text-blue-400">
+              generative modeling, vision-language models, and agentic reasoning
+            </span>{" "}
             as common interfaces across modalities.
           </p>
-        </div>
+        </Section>
 
         <img
           src="/research-scope.png"
@@ -60,12 +77,16 @@ export default function ResearchPage() {
           className="w-full"
         />
 
-        <div className="space-y-4">
-          <h2 className="text-[13px] font-bold">Concrete projects across scales</h2>
-          <ul className="ml-5 list-disc space-y-2 text-pretty text-xs leading-relaxed text-foreground">
-            <li>
-              <span className="text-blue-600 dark:text-blue-400">Radiology &amp; Pathology</span>
-              <ul className="ml-5 mt-1 list-disc space-y-1">
+        <Section>
+          <h2 className="text-[13px] font-bold">
+            Concrete projects across scales
+          </h2>
+          <ul className="space-y-1 text-pretty text-[11px] leading-relaxed text-foreground">
+            <li className="px-2 py-2.5">
+              <span className="block text-blue-600 dark:text-blue-400">
+                Radiology &amp; Pathology
+              </span>
+              <ul className="ml-4 mt-1 list-disc space-y-1">
                 <li>
                   <a
                     href="https://arxiv.org/abs/2509.03903"
@@ -87,13 +108,16 @@ export default function ResearchPage() {
                   >
                     SlideChat
                   </a>{" "}
-                  (CVPR 2025): a vision-language assistant for whole-slide pathology.
+                  (CVPR 2025): a vision-language assistant for whole-slide
+                  pathology.
                 </li>
               </ul>
             </li>
-            <li>
-              <span className="text-blue-600 dark:text-blue-400">Spatial Biology</span>
-              <ul className="ml-5 mt-1 list-disc space-y-1">
+            <li className="px-2 py-2.5">
+              <span className="block text-blue-600 dark:text-blue-400">
+                Spatial Biology
+              </span>
+              <ul className="ml-4 mt-1 list-disc space-y-1">
                 <li>
                   <a
                     href="https://arxiv.org/abs/2606.24235"
@@ -103,13 +127,16 @@ export default function ResearchPage() {
                   >
                     SP-Mind
                   </a>{" "}
-                  (ICML 2026): an autonomous reasoning agent for spatial proteomics.
+                  (ICML 2026): an autonomous reasoning agent for spatial
+                  proteomics.
                 </li>
               </ul>
             </li>
-            <li>
-              <span className="text-blue-600 dark:text-blue-400">Generative &amp; VL</span>
-              <ul className="ml-5 mt-1 list-disc space-y-1">
+            <li className="px-2 py-2.5">
+              <span className="block text-blue-600 dark:text-blue-400">
+                Generative &amp; VL
+              </span>
+              <ul className="ml-4 mt-1 list-disc space-y-1">
                 <li>
                   <a
                     href="https://arxiv.org/abs/2505.19225"
@@ -136,14 +163,16 @@ export default function ResearchPage() {
               </ul>
             </li>
           </ul>
-        </div>
+        </Section>
 
-        <div className="space-y-4">
+        <Section>
           <h2 className="text-[13px] font-bold">Datasets &amp; Benchmarks</h2>
-          <ul className="ml-5 list-disc space-y-2 text-pretty text-xs leading-relaxed text-foreground">
-            <li>
-              <span className="text-blue-600 dark:text-blue-400">Radiology &amp; Pathology</span>
-              <ul className="ml-5 mt-1 list-disc space-y-1">
+          <ul className="space-y-1 text-pretty text-[11px] leading-relaxed text-foreground">
+            <li className="px-2 py-2.5">
+              <span className="block text-blue-600 dark:text-blue-400">
+                Radiology &amp; Pathology
+              </span>
+              <ul className="ml-4 mt-1 list-disc space-y-1">
                 <li>
                   <a
                     href="https://amos22.grand-challenge.org/"
@@ -154,8 +183,8 @@ export default function ResearchPage() {
                     AMOS
                   </a>{" "}
                   (NeurIPS 2022 Oral): large-scale abdominal multi-organ
-                  segmentation; the most widely used multi-organ benchmark in the
-                  field.
+                  segmentation; the most widely used multi-organ benchmark in
+                  the field.
                 </li>
                 <li>
                   <a
@@ -190,14 +219,16 @@ export default function ResearchPage() {
                   >
                     SlideBench
                   </a>
-                  : a WSI multimodal benchmark spanning captioning and VQA across
-                  21 clinical tasks.
+                  : a WSI multimodal benchmark spanning captioning and VQA
+                  across 21 clinical tasks.
                 </li>
               </ul>
             </li>
-            <li>
-              <span className="text-blue-600 dark:text-blue-400">General</span>
-              <ul className="ml-5 mt-1 list-disc space-y-1">
+            <li className="px-2 py-2.5">
+              <span className="block text-blue-600 dark:text-blue-400">
+                General
+              </span>
+              <ul className="ml-4 mt-1 list-disc space-y-1">
                 <li>
                   <a
                     href="https://arxiv.org/abs/2201.09637"
@@ -236,10 +267,11 @@ export default function ResearchPage() {
               </ul>
             </li>
           </ul>
-        </div>
+        </Section>
 
         <footer className="mt-8 text-center text-[11px] text-muted-foreground">
-          © {new Date().getFullYear()} Yuanfeng Ji. Built with Next.js & Tailwind.
+          © {new Date().getFullYear()} Yuanfeng Ji. Built with Next.js &
+          Tailwind.
         </footer>
       </section>
     </main>
