@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   ],
   summary:
     "Postdoctoral scholar at Stanford University with <a href=\"https://profiles.stanford.edu/ruijiang-li\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">Prof. Ruijiang Li</a>, developing AI foundation models for biomedicine, with a focus on computational pathology, radiology, and spatial biology. I received my PhD from <a href=\"https://mmlab.hk/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">HKU MMLab</a> in 2024, advised by <a href=\"https://luoping.me/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">Prof. Ping Luo</a>. My work spans generative models, vision-language models, and AI agents, translating frontier AI methods into clinically impactful tools for clinical diagnosis, treatment, and biomedical discovery.",
-  avatarUrl: "/image.png",
+  avatarUrl: "/academic-photo.jpg",
   personalWebsiteUrl: "https://jiyuanfeng.github.io/",
   contact: {
     email: "yfj@stanford.edu",
@@ -83,6 +83,7 @@ export const RESUME_DATA = {
       "badges": ["NEJM AI"],
       "year": "2026",
       "authors": "Yuanfeng Ji*, Dan Lin*, Xiyue Wang*, Lu Zhang, Wenhui Zhou, Chongjian Ge, Ruihang Chu, Xiaoli Yang, Junhan Zhao, Junsong Chen, Xiangde Luo, Sen Yang, Jin Fang, Ping Luo#, Ruijiang Li#",
+      "thumbnailUrl": "/publications/chexgen-first-page.jpg",
       links: [
         {
           label: "paper",
@@ -95,10 +96,6 @@ export const RESUME_DATA = {
         {
           label: "code",
           url: "https://github.com/era-ai-biomed/ChexGen"
-        },
-        {
-          label: "NotebookLLM",
-          url: "https://notebooklm.google.com/notebook/46829136-2367-47ec-a683-8e06b929a2bd?authuser=2"
         }
       ]
     },
@@ -111,10 +108,6 @@ export const RESUME_DATA = {
         {
           "label": "paper",
           "url": "https://arxiv.org/abs/2604.03635"
-        },
-        {
-          "label": "scholar",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=7HGv1bkAAAAJ&cstart=20&pagesize=80&citation_for_view=7HGv1bkAAAAJ:ZeXyd9-uunAC"
         }
       ]
     },
@@ -144,6 +137,7 @@ export const RESUME_DATA = {
       "badges": ["Cell"],
       "year": "2026",
       "authors": "Yuchen Li*, Zhe Li*, Ryan Quinton, Yuanfeng Ji, Xiaoming Zhang, Jinxi Xiang, Xiyue Wang, Sen Yang, Feyisope Eweje, Yijiang Chen, Xiangde Luo, Yuanyuan Li, Jonathan Mulholland, Siwei Chen, Colin Bergstrom, Ted Kim, Francesca Maria Olguin, Sierra Willens, Steven H. Lin, Jeffrey J. Nirschl, Robert West, Joel Neal, Maximilian Diehn, Ruijiang Li#",
+      "thumbnailUrl": "/publications/cell-virtual-spatial-tumor-profiling-first-page.jpg",
       "links": [
         {
           "label": "paper",
@@ -153,7 +147,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "nnMIL: A Generalizable Multiple Instance Learning Framework for Computational Pathology",
-      "badges": ["In Principle Accepted @ Nature Biomedical Engineering"],
+      "badges": ["Nature Biomedical Engineering"],
       "year": "2026",
       "authors": "Xiangde Luo, Jinxi Xiang, Yuanfeng Ji, Ruijiang Li",
       "links": [
@@ -183,6 +177,7 @@ export const RESUME_DATA = {
       "badges": ["ICML26"],
       "year": "2026",
       "authors": "Yuchen Yuan*, Yuanfeng Ji*, Zhongxiao Li, Ruijiang Li",
+      "thumbnailUrl": "/publications/sp-mind-first-page.jpg",
       "links": [
         {
           "label": "paper",
@@ -283,6 +278,7 @@ export const RESUME_DATA = {
       "badges": ["Signal Transduction and Targeted Therapy"],
       "year": "2025",
       "authors": "Wenhua Yuan, Ying Chen, ..., Yuanfeng Ji, et al.",
+      "thumbnailUrl": "/publications/pancancer-outcome-prediction-first-page.jpg",
       "links": [
         {
           "label": "paper",
@@ -347,10 +343,6 @@ export const RESUME_DATA = {
         {
           label: "model",
           url: "https://huggingface.co/massaki75/meditok/tree/main"
-        },
-        {
-          label: "NotebookLLM",
-          url: "https://notebooklm.google.com/notebook/4c5428e8-6fcc-4ee6-97ad-a85b704a65a8?authuser=2"
         }
       ]
     },
@@ -375,10 +367,6 @@ export const RESUME_DATA = {
         {
           label: "model",
           url: "https://huggingface.co/massaki75/progemu/tree/main"
-        },
-        {
-          label: "NotebookLLM",
-          url: "https://notebooklm.google.com/notebook/b4db2610-d118-4fbe-9f89-0c692bda3ea6?authuser=2"
         }
       ]
     },
@@ -399,10 +387,6 @@ export const RESUME_DATA = {
         {
           label: "project",
           url: "https://uni-medical.github.io/SlideChat.github.io/"
-        },
-        {
-          label: "NotebookLLM",
-          url: "https://notebooklm.google.com/notebook/22733947-ab84-4f5c-8f4a-2d0765f4efaf?authuser=2"
         }
       ]
     },
@@ -600,6 +584,7 @@ export const RESUME_DATA = {
       "badges": ["CVPR19"],
       "year": "2019",
       "authors": "Di Lin, Dingguo Shen, Siyang Shen, Yuanfeng Ji, et al.",
+      "thumbnailUrl": "/publications/zigzagnet-first-page.jpg",
       "links": [
         {
           "label": "paper",
