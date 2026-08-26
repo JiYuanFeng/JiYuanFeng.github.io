@@ -795,7 +795,7 @@ export const RESUME_DATA = {
     {
       title: "nnMIL Published in Nature Biomedical Engineering",
       date: "2026-08-25",
-      description: "Published nnMIL, a generalizable multiple instance learning framework for computational pathology, in Nature Biomedical Engineering.",
+      description: "Published nnMIL, a generalizable multiple instance learning framework for computational pathology, in Nature Biomedical Engineering. Congratulations to Xiangde!",
       link: "https://www.nature.com/articles/s41551-026-01767-8",
     },
     {
