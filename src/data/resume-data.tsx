@@ -150,10 +150,11 @@ export const RESUME_DATA = {
       "badges": ["Nature Biomedical Engineering"],
       "year": "2026",
       "authors": "Xiangde Luo, Jinxi Xiang, Yuanfeng Ji, Ruijiang Li",
+      "thumbnailUrl": "/publications/arxiv-2511-14907.jpg",
       "links": [
         {
           "label": "paper",
-          "url": "https://arxiv.org/abs/2511.14907"
+          "url": "https://www.nature.com/articles/s41551-026-01767-8"
         },
         {
           "label": "code",
@@ -792,10 +793,10 @@ export const RESUME_DATA = {
       link: "https://www.cell.com/cell/fulltext/S0092-8674(26)00590-8",
     },
     {
-      title: "nnMIL Accepted in Principle by Nature Biomedical Engineering",
-      date: "2026-06-17",
-      description: "nnMIL, a generalizable multiple instance learning framework for computational pathology, was accepted in principle by Nature Biomedical Engineering.",
-      link: "https://arxiv.org/abs/2511.14907",
+      title: "nnMIL Published in Nature Biomedical Engineering",
+      date: "2026-08-25",
+      description: "Published nnMIL, a generalizable multiple instance learning framework for computational pathology, in Nature Biomedical Engineering.",
+      link: "https://www.nature.com/articles/s41551-026-01767-8",
     },
     {
       title: "Two Papers Accepted to ICML 2026",
