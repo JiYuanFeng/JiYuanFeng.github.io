@@ -150,7 +150,7 @@ export const RESUME_DATA = {
       "badges": ["Nature Biomedical Engineering"],
       "year": "2026",
       "authors": "Xiangde Luo, Jinxi Xiang, Yuanfeng Ji, Ruijiang Li",
-      "thumbnailUrl": "/publications/arxiv-2511-14907.jpg",
+      "thumbnailUrl": "/publications/nnmil-nature-first-page.jpg",
       "links": [
         {
           "label": "paper",
@@ -781,6 +781,12 @@ export const RESUME_DATA = {
   ],
   news: [
     {
+      title: "nnMIL Published in Nature Biomedical Engineering",
+      date: "2026-08-25",
+      description: "Published nnMIL, a generalizable multiple instance learning framework for computational pathology, in Nature Biomedical Engineering. Congratulations to Xiangde!",
+      link: "https://www.nature.com/articles/s41551-026-01767-8",
+    },
+    {
       title: "Received a Biswas Family Foundation Fast Grant",
       date: "2026-07-10",
       description: "Received USD 50,000 from the Biswas Family Foundation to lead the 2026–2027 project\n“An AI Co-Scientist for Spatial-Proteomics Biomarker Discovery.”",
@@ -791,12 +797,6 @@ export const RESUME_DATA = {
       date: "2026-06-17",
       description: "Published a collaborative study in Cell on virtual spatial tumor profiling from histopathology.",
       link: "https://www.cell.com/cell/fulltext/S0092-8674(26)00590-8",
-    },
-    {
-      title: "nnMIL Published in Nature Biomedical Engineering",
-      date: "2026-08-25",
-      description: "Published nnMIL, a generalizable multiple instance learning framework for computational pathology, in Nature Biomedical Engineering. Congratulations to Xiangde!",
-      link: "https://www.nature.com/articles/s41551-026-01767-8",
     },
     {
       title: "Two Papers Accepted to ICML 2026",
