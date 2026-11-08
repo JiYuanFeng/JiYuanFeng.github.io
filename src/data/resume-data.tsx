@@ -5,8 +5,8 @@ import { GitHubIcon, GoogleScholarIcon, LinkedInIcon } from "@/components/icons"
 export const RESUME_DATA = {
   name: "Yuanfeng Ji",
   initials: "YJ",
-  location: "California, USA, PT",
-  locationLink: "https://www.google.com/maps/place/California",
+  location: "Hangzhou, China, GMT+8",
+  locationLink: "https://www.google.com/maps/place/Hangzhou",
   about:
     "AI researcher building foundation models for biomedicine.",
   researchFocus: [
@@ -15,7 +15,7 @@ export const RESUME_DATA = {
     "AI Agents",
   ],
   summary:
-    "Postdoctoral scholar at Stanford University with <a href=\"https://profiles.stanford.edu/ruijiang-li\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">Prof. Ruijiang Li</a>, developing AI foundation models for biomedicine, with a focus on computational pathology, radiology, and spatial biology. I received my PhD from <a href=\"https://mmlab.hk/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">HKU MMLab</a> in 2024, advised by <a href=\"https://luoping.me/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">Prof. Ping Luo</a>. My work spans generative models, vision-language models, and AI agents, translating frontier AI methods into clinically impactful tools for clinical diagnosis, treatment, and biomedical discovery.",
+    "I am a Staff Research Scientist at <a href=\"https://www.antgroup.com/en\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">Ant Healthcare</a>, developing LLMs and AI agents to improve patient care, support healthcare professionals, and streamline healthcare workflows. Previously, I was a postdoctoral scholar at Stanford University with <a href=\"https://profiles.stanford.edu/ruijiang-li\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">Prof. Ruijiang Li</a>, where I worked on AI foundation models for biomedicine, with a focus on computational pathology, radiology, and spatial biology. I received my PhD from <a href=\"https://mmlab.hk/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">HKU MMLab</a> in 2024, advised by <a href=\"https://luoping.me/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"underline decoration-foreground/30 underline-offset-2 hover:decoration-foreground\">Prof. Ping Luo</a>. My research spans generative models, vision-language models, and AI agents, translating frontier AI into clinically impactful tools for diagnosis, treatment, and biomedical discovery.",
   avatarUrl: "/academic-photo.jpg",
   personalWebsiteUrl: "https://jiyuanfeng.github.io/",
   contact: {
@@ -66,31 +66,36 @@ export const RESUME_DATA = {
     },
   ],
   publications: [
-    /* {
-      "title": "A Multimodal Generative AI Assistant for Whole Slide Computational Pathology",
+    {
+      "title": "SlideChat is a multimodal generative artificial intelligence assistant for whole-slide computational pathology across cancer types",
       "badges": ["Nature Cancer"],
       "year": "2026",
-      "authors": "Ying Chen, et al. Yuanfeng Ji#",
+      "authors": "Ying Chen*, Chenglong Ma*, Qiongqiong Li, Fang Yan, Yirong Chen, Tianbin Li, Jin Ye, Ming Hu, Yuxiang Lin, Yanjun Li, Guoan Wang, Huihui Xu, Hui Dong, Xiang Wang, Xiaoxiao Xu, Yanyan Zhou, Xia Zhu, Sen Yang, Xiyue Wang, Lu Zhang, Yu Qiao, Rongshan Yu#, Junjun He#, Yuanfeng Ji#",
+      "thumbnailUrl": "/publications/slidechat-nature-cancer-first-page.jpg",
       links: [
         {
           label: "paper",
-          url: "https://arxiv.org/abs/2410.11761"
+          url: "https://doi.org/10.1038/s43018-026-01220-4"
+        },
+        {
+          label: "code",
+          url: "https://github.com/uni-medical/SlideChat"
+        },
+        {
+          label: "project",
+          url: "https://uni-medical.github.io/SlideChat.github.io/"
         }
       ]
-    }, */
+    },
     {
       "title": "ChexGen: A Generative Foundation Model for Chest Radiography",
-      "badges": ["NEJM AI"],
+      "badges": ["The New England Journal of Medicine AI"],
       "year": "2026",
       "authors": "Yuanfeng Ji*, Dan Lin*, Xiyue Wang*, Lu Zhang, Wenhui Zhou, Chongjian Ge, Ruihang Chu, Xiaoli Yang, Junhan Zhao, Junsong Chen, Xiangde Luo, Sen Yang, Jin Fang, Ping Luo#, Ruijiang Li#",
       "thumbnailUrl": "/publications/chexgen-first-page.jpg",
       links: [
         {
           label: "paper",
-          url: "https://arxiv.org/abs/2509.03903"
-        },
-        {
-          label: "article",
           url: "https://ai.nejm.org/doi/abs/10.1056/AIoa2500799"
         },
         {
@@ -136,8 +141,9 @@ export const RESUME_DATA = {
       "title": "Cellular Architecture and Neighborhood-informed Virtual Spatial Tumor Profiling from Histopathology",
       "badges": ["Cell"],
       "year": "2026",
-      "authors": "Yuchen Li*, Zhe Li*, Ryan Quinton, Yuanfeng Ji, Xiaoming Zhang, Jinxi Xiang, Xiyue Wang, Sen Yang, Feyisope Eweje, Yijiang Chen, Xiangde Luo, Yuanyuan Li, Jonathan Mulholland, Siwei Chen, Colin Bergstrom, Ted Kim, Francesca Maria Olguin, Sierra Willens, Steven H. Lin, Jeffrey J. Nirschl, Robert West, Joel Neal, Maximilian Diehn, Ruijiang Li#",
+      "authors": "Yuchen Li*, Zhe Li*, Ryan Quinton, Yuanfeng Ji, Xiaoming Zhang, Jinxi Xiang, Xiyue Wang, Sen Yang, Feyisope Eweje, Yijiang Chen, Xiangde Luo, Yuanyuan Li, Jonathan Mulholland, Siwei Chen, Colin Bergstrom, Ted Kim, Francesca Maria Olguin, Sierra Willens, Steven H. Lin, Jeffrey J. Nirschl, Robert West, Joel Neal, Maximilian Diehn, Ruijiang Li",
       "thumbnailUrl": "/publications/cell-virtual-spatial-tumor-profiling-first-page.jpg",
+      "hidePaperLink": true,
       "links": [
         {
           "label": "paper",
@@ -166,16 +172,26 @@ export const RESUME_DATA = {
         }
       ]
     },
-    /* {
-      "title": "Ensemble Learning of Foundation Models for Precision Oncology",
-      "badges": ["Major Revision @ Cancer Cell"],
+    {
+      "title": "Ensemble learning of pathology foundation models for precision oncology",
+      "badges": ["Cancer Cell"],
       "year": "2026",
-      "authors": "Xiangde Luo, Xiyue Wang, ..., Yuanfeng Ji, et al.",
-      "links": []
-    }, */
+      "authors": "Xiangde Luo*, Xiyue Wang*, Feyisope Eweje, Xiaoming Zhang, Juan Luis Gomez Marti, Sarah Cascarino, Sen Yang, Yuchen Li, Ryan Quinton, Jinxi Xiang, Yuanfeng Ji, Zhe Li, Yijiang Chen, Colin Bergstrom, Ted Kim, Francesca Maria Olguin, Kelley Yuan, Matthew Abikenari, Andrew Heider, Sierra Willens, Sanjeeth Rajaram, Robert West, Joel Neal, Adam Schoenfeld, Maximilian Diehn, Chad Vanderbilt, Ruijiang Li#",
+      "thumbnailUrl": "/publications/elf-cancer-cell-first-page.jpg",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://doi.org/10.1016/j.ccell.2026.08.008"
+        },
+        {
+          "label": "code",
+          "url": "https://github.com/lilab-stanford/ELF"
+        }
+      ]
+    },
     {
       "title": "SP-Mind: An Autonomous Reasoning Agent for Spatial Proteomics Analysis",
-      "badges": ["ICML26"],
+      "badges": ["International Conference on Machine Learning (2026)"],
       "year": "2026",
       "authors": "Yuchen Yuan*, Yuanfeng Ji*, Zhongxiao Li, Ruijiang Li",
       "thumbnailUrl": "/publications/sp-mind-first-page.jpg",
@@ -195,8 +211,25 @@ export const RESUME_DATA = {
       ]
     },
     {
+      "title": "MedVTok: A General-Purpose Medical Visual Tokenizer",
+      "badges": ["Conference on Neural Information Processing Systems (2026)"],
+      "year": "2026",
+      "authors": "Chenglong Ma*, Yuanfeng Ji*, Junzhi Ning*, Jiyao Liu*, Yujie Wei, Shaohao Rui, Chaoyang Zhang, Wenjie Li, Wenhao Tang, Cheng Tang, Wei Li, Shujian Gao, Yujie Zhang, Ying Chen, Zilong Li, Zongyuan Ge, Diping Song, Jin Ye, Ming Hu, Junjun He, Hongming Shan",
+      "thumbnailUrl": "/publications/medvtok-first-page.jpg",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2610.35842"
+        },
+        {
+          "label": "project",
+          "url": "https://masaaki-75.github.io/medvtok/"
+        }
+      ]
+    },
+    {
       "title": "UniMedVL: Unifying Medical Multimodal Understanding and Generation Through Observation-Knowledge-Analysis",
-      "badges": ["ICML26"],
+      "badges": ["International Conference on Machine Learning (2026)"],
       "year": "2026",
       "authors": "Junzhi Ning, Wei Li, ..., Yuanfeng Ji, et al.",
       "links": [
@@ -244,7 +277,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "GMAI-VL & GMAI-VL-5.5M: A Large Vision-Language Model and A Comprehensive Multimodal Dataset Towards General Medical AI",
-      "badges": ["AAAI25"],
+      "badges": ["AAAI Conference on Artificial Intelligence (2025)"],
       "year": "2025",
       "authors": "Tianbin Li, Yanzhou Su, Wei Li, ..., Yuanfeng Ji, et al.",
       "links": [
@@ -259,18 +292,6 @@ export const RESUME_DATA = {
         {
           "label": "dataset",
           "url": "https://huggingface.co/datasets/General-Medical-AI/GMAI-VL-5.5M"
-        }
-      ]
-    },
-    {
-      "title": "A Survey of Scientific Large Language Models: From Data Foundations to Agent Frontiers",
-      "badges": ["Arxiv"],
-      "year": "2025",
-      "authors": "Ming Hu, Chenglong Ma, ..., Yuanfeng Ji, et al.",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2508.21148"
         }
       ]
     },
@@ -292,28 +313,8 @@ export const RESUME_DATA = {
       ]
     },
     {
-      "title": "MedShapeNet: A Large-Scale Dataset of 3D Medical Shapes for Computer Vision",
-      "badges": ["Biomedical Engineering"],
-      "year": "2025",
-      "authors": "Jianning Li, Zongwei Zhou, Jiancheng Yang, ..., Yuanfeng Ji, et al.",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2308.16139"
-        },
-        {
-          "label": "project",
-          "url": "https://medshapenet.ikim.nrw/"
-        },
-        {
-          "label": "api",
-          "url": "https://github.com/GLARKI/MedShapeNet2.0"
-        }
-      ]
-    },
-    {
       "title": "RetinaLogos: Fine-Grained Synthesis of High-Resolution Retinal Images Through Captions",
-      "badges": ["MICCAI25"],
+      "badges": ["International Conference on Medical Image Computing and Computer-Assisted Intervention (2025)"],
       "year": "2025",
       "authors": "Junzhi Ning, Cheng Tang, ..., Yuanfeng Ji, et al.",
       "links": [
@@ -349,7 +350,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "Towards Interpretable Counterfactual Generation via Multimodal Autoregression",
-      "badges": ["MICCAI25"],
+      "badges": ["International Conference on Medical Image Computing and Computer-Assisted Intervention (2025)"],
       "year": "2025",
       "authors": "Chenglong Ma*, Yuanfeng Ji*, Jin Ye, Lu Zhang, Ying Chen, Tianbin Li, Mingjie Li, Junjun He, Hongming Shan",
       links: [
@@ -374,7 +375,7 @@ export const RESUME_DATA = {
     {
       "title": "SlideChat: A Large Vision-Language Assistant for Whole-Slide Pathology Image Understanding",
       "year": "2025",
-      "badges": ["CVPR25"],
+      "badges": ["IEEE/CVF Conference on Computer Vision and Pattern Recognition (2025)"],
       "authors": "Ying Chen*, Guoan Wang*, Yuanfeng Ji*#, Yanjun Li, Jin Ye, Tianbin Li, Bin Zhang, Nana Pei, Rongshan Yu, Yu Qiao, Junjun He#",
       links: [
         {
@@ -394,7 +395,7 @@ export const RESUME_DATA = {
     {
       "title": "CompGS: Unleashing 2D Compositionality for Compositional Text-to-3D via Dynamically Optimizing 3D Gaussians",
       "year": "2025",
-      "badges": ["CVPR25"],
+      "badges": ["IEEE/CVF Conference on Computer Vision and Pattern Recognition (2025)"],
       "authors": "Chongjian Ge, Chenfeng Xu, Yuanfeng Ji, et al.",
       "links": [
         {
@@ -421,7 +422,7 @@ export const RESUME_DATA = {
     },    
     {
       "title": "Large Language Models as Automated Aligners for Benchmarking Vision-Language Models",
-      "badges": ["ICLR24"],
+      "badges": ["International Conference on Learning Representations (2024)"],
       "year": "2024",
       "authors": "Yuanfeng Ji*, Chongjian Ge*, Weikai Kong, Enze Xie, Zhengying Liu, Zhengguo Li, Ping Luo",
       "links": [
@@ -433,7 +434,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "DDP: Diffusion Model for Dense Visual Prediction",
-      "badges": ["ICCV23"],
+      "badges": ["IEEE/CVF International Conference on Computer Vision (2023)"],
       "year": "2023",
       "authors": "Yuanfeng Ji*, Zhe Chen*, Enze Xie, Lanqing Hong, Xihui Liu, Zhaoqiang Liu, Tong Lu, Zhenguo Li, Ping Luo",
       "links": [
@@ -449,8 +450,8 @@ export const RESUME_DATA = {
     },
     {
       "title": "DrugOOD: Out-of-Distribution Dataset Curator and Benchmark for AI-aided Drug Discovery",
-      "badges": ["AAAI22", "Oral"],
-      "year": "2022",
+      "badges": ["AAAI Conference on Artificial Intelligence (2023)", "Oral"],
+      "year": "2023",
       "authors": "Yuanfeng Ji*, Lu Zhang*, Jiaxiang Wu, Bingzhe Wu, Lanqing Li, Long-Kai Huang, Tingyang Xu, Yu Rong, Jie Ren, Ding Xue, Houtim Lai, Wei Liu, Junzhou Huang, Shuigeng Zhou, Ping Luo, Peilin Zhao, Yatao Bian",
       "links": [
         {
@@ -469,7 +470,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "AMOS: A Large-Scale Abdominal Multi-Organ Benchmark for Versatile Medical Image Segmentation",
-      "badges": ["NeurIPS22", "Oral"],
+      "badges": ["Conference on Neural Information Processing Systems (2022)", "Oral"],
       "year": "2022",
       "authors": "Yuanfeng Ji, Haotian Bai, Chongjian Ge, Jie Yang, Ye Zhu, Ruimao Zhang, Zhen Li, Lingyan Zhang, Wanling Ma, Xiang Wan, Ping Luo",
       "links": [
@@ -488,28 +489,8 @@ export const RESUME_DATA = {
       ]
     },
     {
-      "title": "The Medical Segmentation Decathlon",
-      "badges": ["Nature Communications"],
-      "year": "2022",
-      "authors": "Michela Antonelli, Annika Reinke, Spyridon Bakas, ..., Yuanfeng Ji, et al.",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2106.05735"
-        },
-        {
-          "label": "project",
-          "url": "http://medicaldecathlon.com/"
-        },
-        {
-          "label": "dataset",
-          "url": "http://medicaldecathlon.com/dataaws/"
-        }
-      ]
-    },
-    {
       "title": "Multi-Compound Transformer for Accurate Biomedical Image Segmentation",
-      "badges": ["MICCAI21"],
+      "badges": ["International Conference on Medical Image Computing and Computer-Assisted Intervention (2021)"],
       "year": "2021",
       "authors": "Yuanfeng Ji, Ruimao Zhang, Huijie Wang, Zhen Li, Lingyun Wu, Shaoting Zhang, Ping Luo",
       "links": [
@@ -525,7 +506,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "Multi-Frame Collaboration for Effective Endoscopic Video Polyp Detection",
-      "badges": ["MICCAI21"],
+      "badges": ["International Conference on Medical Image Computing and Computer-Assisted Intervention (2021)"],
       "year": "2021",
       "authors": "Lingyun Wu, Zhiqiang Hu, Yuanfeng Ji, Ping Luo, Shaoting Zhang",
       "links": [
@@ -541,7 +522,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "UXNet: Searching Multi-level Feature Aggregation for 3D Medical Image Segmentation",
-      "badges": ["MICCAI20"],
+      "badges": ["International Conference on Medical Image Computing and Computer-Assisted Intervention (2020)"],
       "year": "2020",
       "authors": "Yuanfeng Ji, Ruimao Zhang, Zhen Li, Jiamin Ren, Shaoting Zhang, Ping Luo",
       "links": [
@@ -553,7 +534,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "RANet: Region Attention Network for Semantic Segmentation",
-      "badges": ["NeurIPS20"],
+      "badges": ["Conference on Neural Information Processing Systems (2020)"],
       "year": "2020",
       "authors": "Dingguo Shen*, Yuanfeng Ji*, Ping Li, Yi Wang, Di Lin",
       "links": [
@@ -570,7 +551,7 @@ export const RESUME_DATA = {
     {
       "title": "PRSNet: Part Relation and Selection Network for Bone Age Assessment",
       "badge": "MICCAI19",
-      "badges": ["MICCAI2019"],
+      "badges": ["International Conference on Medical Image Computing and Computer-Assisted Intervention (2019)"],
       "year": "2019",
       "authors": "Yuanfeng Ji, Hao Chen, Dan Lin, Xiaohua Wu, Di Lin",
       "links": [
@@ -582,7 +563,7 @@ export const RESUME_DATA = {
     },
     {
       "title": "ZigZagNet: Fusing Top-Down and Bottom-Up Context for Object Segmentation",
-      "badges": ["CVPR19"],
+      "badges": ["IEEE/CVF Conference on Computer Vision and Pattern Recognition (2019)"],
       "year": "2019",
       "authors": "Di Lin, Dingguo Shen, Siyang Shen, Yuanfeng Ji, et al.",
       "thumbnailUrl": "/publications/zigzagnet-first-page.jpg",
@@ -598,8 +579,25 @@ export const RESUME_DATA = {
       ]
     },
     {
+      "title": "Multi-Scale Context Intertwining for Semantic Segmentation",
+      "badges": ["European Conference on Computer Vision (2018)"],
+      "year": "2018",
+      "authors": "Di Lin, Yuanfeng Ji, Dani Lischinski, Daniel Cohen-Or, Hui Huang",
+      "thumbnailUrl": "/publications/multi-scale-context-intertwining-first-page.jpg",
+      "links": [
+        {
+          "label": "paper",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-01219-9_37"
+        },
+        {
+          "label": "pdf",
+          "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Di_Lin_Multi-Scale_Context_Intertwining_ECCV_2018_paper.pdf"
+        }
+      ]
+    },
+    {
       "title": "SCN: Switchable Context Network for Semantic Segmentation of RGB-D Images",
-      "badges": ["IEEE T-Cybernetics"],
+      "badges": ["IEEE Transactions on Cybernetics"],
       "year": "2018",
       "authors": "Di Lin, Ruimao Zhang, Yuanfeng Ji, Ping Li, Hui Huang",
       "links": [
@@ -612,15 +610,25 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Ant Healthcare",
+      link: "https://www.antgroup.com/en",
+      badges: [],
+      title: "Staff Research Scientist",
+      logo: NSNLogo,
+      start: "2026",
+      end: null,
+      description: "Conducting frontier AI research for healthcare.",
+    },
+    {
       company: "Stanford University",
       link: "https://profiles.stanford.edu/yuanfeng-ji",
       badges: [],
       title: "Postdoctoral Researcher",
       logo: NSNLogo,
       start: "2024",
-      end: null,
+      end: "2026",
       description:
-        "Developing multimodal foundation models and AI agents for computational pathology, radiology, and spatial biology; leading a 2026–2027 Fast Grant project on AI-assisted spatial-proteomics biomarker discovery.",
+        "Developing multimodal foundation models and AI agents for computational pathology, radiology, and spatial biology.",
     },
     {
       company: "Stanford University",
@@ -780,6 +788,41 @@ export const RESUME_DATA = {
     },
   ],
   news: [
+    {
+      title: "Introducing RadWorld and MedVTok",
+      date: "2026-10-26",
+      description:
+        "We introduce RadWorld, which places diverse 3D tomographic imaging tasks within a unified world-modeling framework, and MedVTok, which provides a shared token interface across 2D and 3D medical imaging toward a unified health world model.",
+      link: "",
+      projectLinks: [
+        {
+          label: "RadWorld",
+          url: "https://yejin0111.github.io/RadWorld-homepage/",
+        },
+        {
+          label: "MedVTok",
+          url: "https://masaaki-75.github.io/medvtok/",
+        },
+      ],
+    },
+    {
+      title: "ELF Published in Cancer Cell",
+      date: "2026-09-13",
+      description: "ELF was published in Cancer Cell. Congratulations to Xiangde!",
+      link: "https://doi.org/10.1016/j.ccell.2026.08.008",
+    },
+    {
+      title: "Joined Ant Healthcare as a Staff Research Scientist",
+      date: "2026-09-10",
+      description: "I joined Ant Healthcare as a Staff Research Scientist, focusing on frontier AI research for healthcare.",
+      link: "",
+    },
+    {
+      title: "SlideChat Published Online in Nature Cancer",
+      date: "2026-09-01",
+      description: "SlideChat was published online in Nature Cancer. Congratulations to Ying Chen and Chenglong Ma!",
+      link: "https://doi.org/10.1038/s43018-026-01220-4",
+    },
     {
       title: "nnMIL Published in Nature Biomedical Engineering",
       date: "2026-08-25",

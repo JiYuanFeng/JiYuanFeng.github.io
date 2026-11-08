@@ -16,6 +16,12 @@ export function formatPublicationAuthors(authors: string) {
   );
   const visibleIndices = new Set([0, 1, names.length - 1]);
 
+  names.forEach((name, index) => {
+    if (/[*#]/.test(name)) {
+      visibleIndices.add(index);
+    }
+  });
+
   if (ownNameIndex >= 0) {
     visibleIndices.add(ownNameIndex);
   } else {

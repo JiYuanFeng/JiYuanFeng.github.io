@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import Script from "next/script"; // Import Script
 
 import "./globals.css";
@@ -13,8 +13,10 @@ export const metadata: Metadata = {
 };
 
 // If loading a variable font, you don't need to specify the font weight
-const inter = Inter({
-  subsets: ["latin"],
+const inter = localFont({
+  src: "./fonts/inter.woff2",
+  weight: "100 900",
+  style: "normal",
   display: "swap",
 });
 
